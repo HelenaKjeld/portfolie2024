@@ -1,14 +1,16 @@
 .body {
     margin: -10px;
+    background-color: brown;
 }
 
 
 .navbar {
     display: flex;
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #ff0000;
+    background-color: #ffffff;
     padding: 10px 20px;
+    
 }
 
 /* .navbar .left,
@@ -16,12 +18,94 @@
     display: flex;
 } */
 
-.navbar .nav-link {
-    color: white;
-    text-decoration: none;
-    padding: 8px 16px;
-}
+/*.navbar .nav-link */
 
 .navbar .logo img {
-    max-height: 50px;
+    
+    size-adjust: 50px;
+
+}
+
+
+.topcontainer{
+    color: darkred;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 20px;
+}
+
+.boxesrow1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box1{
+    background-color: rgb(224, 36, 36);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
+}
+
+.box2{
+    background-color: rgb(196, 208, 29);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
+}
+
+.box3{
+    background-color: rgb(39, 209, 36);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
+}
+
+.box4{
+    background-color: rgb(22, 198, 198);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
+}
+
+.boxesrow2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.box5{
+    background-color: rgb(36, 83, 224);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
+}
+
+.box6{
+    background-color: rgb(110, 29, 208);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
+}
+
+.box7{
+    background-color: rgb(209, 36, 198);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
+}
+
+.box8{
+    background-color: rgb(198, 22, 89);
+    color: aqua;
+    font-weight: 700;
+    height: 50vh;
+    width: 25vw;
 }
