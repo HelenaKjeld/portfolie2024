@@ -28,7 +28,7 @@ a{
     align-items: center;
     background-color: #ffffff;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-family: "Inter", sans-serif;
 
 }
