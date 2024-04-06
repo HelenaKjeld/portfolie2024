@@ -5,10 +5,24 @@
  
     <div class="topcontainer">
         <!-- <a href="#" class="">UX</a> -->
-        <h4>UX</h4>
+         <!-- <h3 @click="selectedCategory = 'UX'">UX</h3> 
+         <h3 @click="selectedCategory = 'Wed'">Wed</h3>
+         <h3 @click="selectedCategory = 'Lllustraton'">Lllustraton</h3>
+         <h3 @click="selectedCategory = 'Graphic design'">Graphic design</h3>
+         <h3 @click="selectedCategory = ''">ALL</h3> -->
+
+        <button @click="selectedCategory = 'UX'"><h3>UX</h3></button> 
+        <button @click="selectedCategory = 'Web'"><h3>Web</h3></button>
+        <button @click="selectedCategory = 'Lllustraton'"><h3>Lllustraton</h3></button>
+        <button @click="selectedCategory = 'Graphic design'"><h3>Graphic design</h3></button>
+        <button @click="selectedCategory = ''"><h3>ALL</h3></button>
+        
+        <!-- <h4>UX</h4>
         <h4>Web</h4>
         <h4>Lllustraton</h4>
-        <h4>Graphic design</h4>
+        <h4>Graphic design</h4> 
+        <h4>ALL</h4>-->
+
 </div>
 
 <div class="boxesrow1">
@@ -47,7 +61,18 @@
     gap: 20px;
     margin-top: 5vh;
     margin-bottom: 2vh;
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif !important;
+    text-decoration: none;
+}
+
+.topcontainer button {
+    text-decoration: none;
+    border: #FF3E25;
+    background-color: #FF3E25;
+    color: #ffffff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .boxesrow1 {
@@ -64,6 +89,7 @@
     font-family: "Inter", sans-serif;
     background-size: cover;
     background-position: center;
+    font-size: medium;
 }
 
 .box:hover {
