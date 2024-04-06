@@ -134,8 +134,15 @@
 }
 
 .back{
+    text-decoration: none;
+    border: #FF3E25;
+    background-color: #FF3E25;
+    color: #ffffff;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 40px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .col_left{
