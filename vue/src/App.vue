@@ -22,5 +22,7 @@ import MyHeader from "./components/MyHeader.vue";
 .webborder {
   margin: -10px;
 }
+
+/* Hvis du har style der skal være på alle sider, så smid det her */
 </style>
 

@@ -27,12 +27,12 @@
 
 <div  class="boxesrow1">
     <div class="box box1">
-        <RouterLink :to="{ path: 'project/1' }">
+        <router-link :to="{ path: 'project/1' }">
         <div class="content"> 
             <h4>text og okkurt</h4>
             <p>Duck</p> 
         </div>
-        </RouterLink>
+    </router-link>
     </div>
     <div class="box box2"><h4>text og okkurt</h4><p>Duck</p></div>
     <div class="box box3"><h4>text og okkurt</h4><p>Duck</p></div>
@@ -99,6 +99,16 @@
     color: #ffffff;
     background: #ff3e25; 
 }
+
+a {
+    color: rgba(0, 255, 255, 0);
+}
+
+.box:hover a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 
 .content{
