@@ -27,12 +27,12 @@
 
 <div  class="boxesrow1">
     <div class="box box1">
-        <router-link :to="{ path: 'project/1' }">
+        <RouterLink :to="{ path: 'project/1' }">
         <div class="content"> 
             <h4>text og okkurt</h4>
             <p>Duck</p> 
         </div>
-    </router-link>
+    </RouterLink>
     </div>
     <div class="box box2"><h4>text og okkurt</h4><p>Duck</p></div>
     <div class="box box3"><h4>text og okkurt</h4><p>Duck</p></div>
@@ -65,6 +65,8 @@
     margin-bottom: 2vh;
     font-family: "Inter", sans-serif !important;
     text-decoration: none;
+    height: 35px;
+    padding-bottom: 20px;
 }
 
 .topcontainer button {
@@ -73,8 +75,9 @@
     background-color: #FF3E25;
     color: #ffffff;
     border-radius: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
 }
 
 .boxesrow1 {
@@ -100,7 +103,7 @@
     background: #ff3e25; 
 }
 
-a {
+.box a {
     color: rgba(0, 255, 255, 0);
 }
 
