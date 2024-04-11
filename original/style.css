@@ -124,9 +124,28 @@
     background-color: rgb(198, 22, 89);
 }
 
-
-
 /* about */
+
+.about_row{
+    margin-top: 240xp;
+    padding-top: 70px;
+}
+
+.MeImg{
+    width: 600px;
+    clip-path: circle(30%);
+}
+
+.col{
+    color: #FF3E25;
+}
+
+.col-2{
+    color: #FF3E25;
+}
+
+
+/* about/projter */
 
 .containerbbq{
     display: flex;
