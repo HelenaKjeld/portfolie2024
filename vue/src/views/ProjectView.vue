@@ -5,7 +5,7 @@
     <div><button class="back">Back</button></div>
 
     <div class="containerbbq">
-        <div class="col_left">
+        <div class="left">
             
             <div>
                 <h2>Title BBQ</h2>
@@ -16,7 +16,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi sit facere, autem rerum inventore? Pariatur ut vero ea aspernatur modi dignissimos nostrum! Iste quisquam doloribus pariatur! Laudantium, earum at.</p>
             </div>
           </div>
-        <div class="col_right">
+        <div class="right">
             <img src="/src/assets/BBQ/mockup computer og mobil.png" alt="">
             <img src="/src/assets/BBQ/a LOGO WHITE TEST black backgrund.png" alt="">
             <img src="/src/assets/BBQ/K logo black background.png" alt="">
@@ -27,12 +27,13 @@
     </div>
   </template>
   
-  <style>
+  <style scoped>
 
 
 
 .containerbbq{
     display: flex;
+    flex-direction: row;
     margin-top: 40px;
 }
 
@@ -53,33 +54,31 @@
     left:20px;
 }
 
-.col_left{
-    width: 89vh;
+.left{
+    width: 85%;
     padding-left: 80px;
-    padding-right: 30px;
+    flex: 1;
 }
 
-.col_right{
-    width: 2vh;
+.right{
+    width: 2%;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    padding-left: 1px;
-    margin-top: 25px;
+    flex: 1;
 }
 
-.col_right img{
+.right img{
     width: 45vw;
     /* height: 35vh; */
     padding-bottom: 20px;
-    margin-right: 100px;
 }
-  @media (min-width: 1024px) {
+  /* @media (min-width: 1024px) {
     .project {
       min-height: 100vh;
       display: flex;
       align-items: center;
     }
-  }
+  } */
   </style>
   

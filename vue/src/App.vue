@@ -81,8 +81,9 @@ import MyHeader from "./components/MyHeader.vue";
  body, #app {
   font-family: "Inter", sans-serif;
 }
-.webborder {
-  margin: -10px;
+
+body {
+  margin: 0;
 }
 
 /* Hvis du har style der skal være på alle sider, så smid det her */

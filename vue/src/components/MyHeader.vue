@@ -1,13 +1,9 @@
 <template>
        <header>
     <nav class="navbar">
-        <div class="left">
             <RouterLink to ="/">PROJECTS</RouterLink>
-        </div>
             <img class="logo" src="../assets/mítt_logo_Xsmall.png" alt="Logo">
-        <div class="right">
             <RouterLink to ="/about">ABOUT</RouterLink>
-        </div>
     </nav>
     </header>
 </template>
