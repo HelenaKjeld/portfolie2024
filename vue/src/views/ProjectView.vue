@@ -23,10 +23,7 @@
         </div>
     </div>        
 
-    <footer>
-        <img src="/src/assets/logo footer.png" class="logo_footer" alt="logo footer"> 
-        
-    </footer>
+
     </div>
   </template>
   
@@ -44,35 +41,38 @@
     border: #FF3E25;
     background-color: #FF3E25;
     color: #ffffff;
+    height: 35px;
     border-radius: 30px;
     padding-left: 20px;
     padding-right: 20px;
-    /* margin-top: 20px;
-    margin-bottom: 40px;
-    margin-left: 50px; */
+    margin-top: -10px;
+    margin-bottom: 50px;
+    margin-left: 50px;
     position: absolute;
     top:120px;
     left:20px;
 }
 
 .col_left{
-    width: 99vh;
+    width: 89vh;
     padding-left: 80px;
     padding-right: 30px;
 }
 
 .col_right{
-    width: 50vh;
+    width: 2vh;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    padding-left: 80px;
+    padding-left: 1px;
+    margin-top: 25px;
 }
 
 .col_right img{
-    width: 35vw;
+    width: 45vw;
     /* height: 35vh; */
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    margin-right: 100px;
 }
   @media (min-width: 1024px) {
     .project {

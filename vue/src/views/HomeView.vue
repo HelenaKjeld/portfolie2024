@@ -4,16 +4,11 @@
   <main>
  
     <div class="topcontainer">
-        <!-- <a href="#" class="">UX</a> -->
-         <!-- <h3 @click="selectedCategory = 'UX'">UX</h3> 
-         <h3 @click="selectedCategory = 'Wed'">Wed</h3>
-         <h3 @click="selectedCategory = 'Lllustraton'">Lllustraton</h3>
-         <h3 @click="selectedCategory = 'Graphic design'">Graphic design</h3>
-         <h3 @click="selectedCategory = ''">ALL</h3> -->
+       
 
         <button @click="selectedCategory = 'UX'"><span>UX</span></button> 
         <button @click="selectedCategory = 'Web'"><span>Web</span></button>
-        <button @click="selectedCategory = 'Lllustraton'"><span>Lllustraton</span></button>
+        <button @click="selectedCategory = 'Lllustraton'"><span>Illustration</span></button>
         <button @click="selectedCategory = 'Graphic design'"><span>Graphic design</span></button>
         <button @click="selectedCategory = ''"><span>ALL</span></button>
         

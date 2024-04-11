@@ -1,8 +1,8 @@
 <template>
-    <footer>
+    <!-- <footer>
         <img src="img/logo footer.png" class="logo_footer" alt="logo footer"> 
         
-    </footer>
+    </footer> -->
 </template>
 
 <script setup>
