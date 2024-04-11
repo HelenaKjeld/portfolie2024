@@ -9,7 +9,8 @@ const gitPortfolioItems = () => {
         id: 1,
         title: 'BBQ',
         description: 'This is the first portfolio item',
-        image: '//src/assets/BBQ/mockup computer og mobil.png',
+        text: 'okkurt um bbq',
+        image: '/src/assets/BBQ/mockup computer og mobil.png',
         category: 'Web',
         category: 'Lllustraton',
         // detail: {
@@ -22,24 +23,31 @@ const gitPortfolioItems = () => {
         //     ] 
         // }
     },
+
     {
         id: 2,
         title: 'Gjesing Poster',
-        description: 'This is the second portfolio item',
+        description: 'This is the 2 portfolio item',
+        text: 'okkurt um gjesing poster',
         image: '//src/assets/cc poster gjesing',
-        link: 'https://www.google.com',
-        category: 'Graphic design'
+        category: 'Graphic design',
     },
     {
         id: 3,
-        title: 'Portfolio Item 3',
-        description: 'This is the third portfolio item'
+        title: 'CSVPA',
+        description: 'This is the 3 portfolio item',
+        text: 'okkurt um CSVPA poster',
+        image: '//src/assets/csvpa/rhino poster.jpg',
+        category: 'Graphic design',
     },
     {
-        id: 2,
-        title: 'Portfolio Item 2',
-        description: 'This is the second portfolio item'
-    }  
+        id: 4,
+        title: 'DUCK',
+        description: 'This is the 3 portfolio item',
+        text: 'okkurt um CSVPA poster',
+        image: '//src/assets/csvpa/rhino poster.jpg',
+        category: 'Graphic design',
+    } 
     ])
 
 
