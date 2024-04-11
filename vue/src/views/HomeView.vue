@@ -11,11 +11,11 @@
          <h3 @click="selectedCategory = 'Graphic design'">Graphic design</h3>
          <h3 @click="selectedCategory = ''">ALL</h3> -->
 
-        <button @click="selectedCategory = 'UX'"><h3>UX</h3></button> 
-        <button @click="selectedCategory = 'Web'"><h3>Web</h3></button>
-        <button @click="selectedCategory = 'Lllustraton'"><h3>Lllustraton</h3></button>
-        <button @click="selectedCategory = 'Graphic design'"><h3>Graphic design</h3></button>
-        <button @click="selectedCategory = ''"><h3>ALL</h3></button>
+        <button @click="selectedCategory = 'UX'"><span>UX</span></button> 
+        <button @click="selectedCategory = 'Web'"><span>Web</span></button>
+        <button @click="selectedCategory = 'Lllustraton'"><span>Lllustraton</span></button>
+        <button @click="selectedCategory = 'Graphic design'"><span>Graphic design</span></button>
+        <button @click="selectedCategory = ''"><span>ALL</span></button>
         
         <!-- <h4>UX</h4>
         <h4>Web</h4>

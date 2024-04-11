@@ -7,30 +7,28 @@ const gitPortfolioItems = () => {
     const portfolioItems = ref([
     {
         id: 1,
-        title: 'Portfolio Item 1',
+        title: 'BBQ',
         description: 'This is the first portfolio item',
-        image: image1,
-        category: 'web',
-        detail: {
-            title: "BEST SHIP PAINTING EVER!",
-            coverImage: "link",
-            paintedDate: "2024-01-22",
-            images: [
-                "",
-                "",
-                "",
-                "",
-            ] 
-        }
-
+        image: '//src/assets/BBQ/mockup computer og mobil.png',
+        category: 'Web',
+        category: 'Lllustraton',
+        // detail: {
+        //     title: "BEST SHIP PAINTING EVER!",
+        //     coverImage: "link",
+        //     paintedDate: "2024-01-22",
+        //     images: [
+        //         "",
+        //         "",
+        //     ] 
+        // }
     },
     {
         id: 2,
-        title: 'Portfolio Item 2',
+        title: 'Gjesing Poster',
         description: 'This is the second portfolio item',
-        image: 'https://via.placeholder.com/150',
+        image: '//src/assets/cc poster gjesing',
         link: 'https://www.google.com',
-        category: 'photo'
+        category: 'Graphic design'
     },
     {
         id: 3,
