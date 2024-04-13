@@ -29,6 +29,14 @@ a{
 
 }
 
+:link {
+    color: black;
+}
+
+:visited{
+    color: black;
+}
+
 .logo {
     width: 50%; /* Adjust the width as necessary, it scales with the viewport */
     max-width: 100px; /* Maximum size of the logo */

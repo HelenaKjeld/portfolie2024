@@ -15,6 +15,29 @@
       return portfolioItems.value.filter(item => item.category.includes( selectedCategory.value ) ) }
   }) /* */
 
+  const categories=[
+  {
+        category : "UX",
+        title : "UX"
+    },
+    {
+        category : "Web",
+        title : "Web"
+    },
+    {
+        category : "Graphic design",
+        title : "Graphic design"
+    },
+    {
+        category : "Illustration",
+        title : "Illustration"
+    },
+    {
+        category : "",
+        title : "ALL"
+    },
+  ]
+
 </script>
 
 <template>
@@ -22,40 +45,23 @@
  
     <div class="topcontainer">
        
-
-        <button @click="selectedCategory = 'UX'"><span>UX</span></button> 
+        <button v-for="item in categories" :key="item.title"  
+        :class="[
+            {selected: selectedCategory === item.category},
+            {unselected: selectedCategory != item.category},
+        ]" 
+        @click="selectedCategory = item.category"
+        >
+        {{ item.title }}
+        </button>
+        <!-- <button @click="selectedCategory = 'UX'"><span>UX</span></button> 
         <button @click="selectedCategory = 'Web'"><span>Web</span></button>
         <button @click="selectedCategory = 'Graphic design'"><span>Graphic design</span></button>
-        <button @click="selectedCategory = 'Illustraton'"><span>Illustration</span></button>
-        <button @click="selectedCategory = ''"><span>ALL</span></button>
-        
-        <!-- <h4>UX</h4>
-        <h4>Web</h4>
-        <h4>Lllustraton</h4>
-        <h4>Graphic design</h4> 
-        <h4>ALL</h4>-->
+        <button @click="selectedCategory = 'Illustration'"><span>Illustration</span></button>
+        <button @click="selectedCategory = ''"><span>ALL</span></button> -->
+
 
 </div>
-
-
-<!-- <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem" class="card">
-
-    <h2>{{ portfolioItem.title }}</h2>
-    <h2>{{ portfolioItem.subTitle }}</h2>
-    <p>{{ portfolioItem.description }}</p>
-    <p>{{ portfolioItem.id }}</p>
-
-    <p :class="portfolioItem.category[0]">{{ portfolioItem.category }}</p>
-
-    <img :src="portfolioItem.thumbnail" alt="">
-    <div v-if="portfolioItem.link">
-        <a :href="portfolioItem.link">Link</a>
-    </div>
-    <div v-else>
-
-    </div>
-</div> -->
-
 
 <div  class="boxesrow1">
 
@@ -78,7 +84,7 @@
 
 
 .topcontainer{
-    color: #FF3E25;
+    color: #e62721;
     display: flex;
     flex-direction: row;
     justify-content:center;
@@ -93,18 +99,30 @@
 
 .topcontainer button {
     text-decoration: none;
-    border: #FF3E25;
-    background-color: #FF3E25;
-    color: #ffffff;
     border-radius: 30px;
     padding-left: 10px;
     padding-right: 10px;
     align-items: center;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.selected{
+    color: #e62721;
+    background-color: #ffffff;
+    border: #e62721;
+
+}
+
+.unselected{
+    border: #e62721;
+    background-color: #e62721;
+    color: #ffffff;
 }
 
 .boxesrow1 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 
 .box {
@@ -129,7 +147,8 @@
 
 .box:hover {
     color: #ffffff;
-    background: #ff3e25; 
+    background: #e62721; 
+    // background: #ff3e25; 
 }
 
 .box a {

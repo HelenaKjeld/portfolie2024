@@ -1,8 +1,9 @@
 <template>
     <div class="project">
       
-
-    <div><button class="back">Back</button></div>
+      <RouterLink to ="/" >
+        <button  class="back">Back</button>
+      </RouterLink>
 
     <div class="containerbbq">
         <div class="left">
@@ -51,8 +52,8 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 
 .back{
     text-decoration: none;
-    border: #FF3E25;
-    background-color: #FF3E25;
+    border: #e62721;
+    background-color: #e62721;
     color: #ffffff;
     height: 35px;
     border-radius: 30px;
@@ -64,6 +65,7 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     position: absolute;
     top:120px;
     left:20px;
+    cursor: pointer;
 }
 
 .left{
