@@ -12,7 +12,7 @@
       return portfolioItems.value
     }
     else { 
-      return portfolioItems.value.filter(item => item.category[0] == selectedCategory.value) }
+      return portfolioItems.value.filter(item => item.category.includes( selectedCategory.value ) ) }
   }) /* */
 
 </script>
@@ -25,8 +25,8 @@
 
         <button @click="selectedCategory = 'UX'"><span>UX</span></button> 
         <button @click="selectedCategory = 'Web'"><span>Web</span></button>
-        <button @click="selectedCategory = 'Lllustraton'"><span>Illustration</span></button>
         <button @click="selectedCategory = 'Graphic design'"><span>Graphic design</span></button>
+        <button @click="selectedCategory = 'Illustraton'"><span>Illustration</span></button>
         <button @click="selectedCategory = ''"><span>ALL</span></button>
         
         <!-- <h4>UX</h4>
@@ -123,7 +123,9 @@
     width: 25vw;
     background-size: cover;
     background-position: center;
-    
+    z-index: 1;
+    opacity: 50%;
+
 }
 
 .box:hover {
@@ -144,49 +146,7 @@
 
 
 .content{
-    z-index: 2;
-}
-
-
-
-.box1{
-    background-color: rgb(224, 36, 36);
-    background-image: url("img/1.jpg");
-}
-
-
-.box2{
-    background-color: rgb(196, 208, 29);
-    background-image: url("img/4.jpg");
-}
-
-.box3{
-    background-color: rgb(39, 209, 36);
-}
-
-.box4{
-    background-color: rgb(22, 198, 198);
-}
-
-.boxesrow2 {
-    display: flex;
-    flex-direction: row;
-}
-
-.box5{
-    background-color: rgb(36, 83, 224);
-}
-
-.box6{
-    background-color: rgb(110, 29, 208);
-}
-
-.box7{
-    background-color: rgb(209, 36, 198);
-}
-
-.box8{
-    background-color: rgb(198, 22, 89);
+    z-index: 4;
 }
 
 </style>

@@ -16,7 +16,8 @@ const gitPortfolioItems = () => {
             '/src/assets/BBQ/K logo black background.png',
         ],
         category: [
-            'Web','Lllustraton'
+            'Web',
+            'Illustraton'
         ]
     },
     {
