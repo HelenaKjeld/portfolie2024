@@ -1,6 +1,8 @@
 <script setup>
 import { RouterView } from 'vue-router'
 import MyHeader from "./components/MyHeader.vue";
+import MyFooter from "./components/MyFooter.vue";
+
 
 </script>
 
@@ -22,6 +24,9 @@ import MyHeader from "./components/MyHeader.vue";
   </Transition>
 </RouterView>
  -->
+
+ <MyFooter />
+
 </template>
 
 <style lang="scss">

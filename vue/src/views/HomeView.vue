@@ -38,7 +38,7 @@
 </div>
 
 
-<div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem" class="card">
+<!-- <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem" class="card">
 
     <h2>{{ portfolioItem.title }}</h2>
     <h2>{{ portfolioItem.subTitle }}</h2>
@@ -54,14 +54,14 @@
     <div v-else>
 
     </div>
-</div>
+</div> -->
 
 
 <div  class="boxesrow1">
 
-    <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem.id" class="box" 
-    :style="{ backgroundImage: 'url(' + portfolioItem.thumbnail + ')' }">
+    <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem.id" class="box">
         <RouterLink :to="{ path: 'project/' + portfolioItem.id}">
+            <img :src="portfolioItem.thumbnail" alt="">
             <div class="content"> 
                 <h4>{{ portfolioItem.title }}</h4>
                 <p>{{ portfolioItem.subTitle }}</p> 
@@ -69,17 +69,6 @@
         </RouterLink>
     </div>
 </div>
-    <!-- <div class="box box2"><h4>text og okkurt</h4><p>Duck</p></div>
-    <div class="box box3"><h4>text og okkurt</h4><p>Duck</p></div>
-    <div class="box box4"><h4>text og okkurt</h4><p>Duck</p></div> -->
-
-<div class="boxesrow2">
-    <div class="box box5"><h4>text og okkurt</h4><p>Duck</p></div>
-    <div class="box box6"><h4>text og okkurt</h4><p>Duck</p></div>
-    <div class="box box7"><h4>text og okkurt</h4><p>Duck</p></div>
-    <div class="box box8"><h4>text og okkurt</h4><p>Duck</p></div>
-</div>
-
 
   </main>
 </template>
@@ -122,12 +111,19 @@
     height: 50vh;
     width: 25vw;
     color: rgba(0, 255, 255, 0);
-    padding-top: 2em;
-    padding-left: 3ex;
+    // padding-top: 2em;
+    // padding-left: 3ex;
     font-family: "Inter", sans-serif;
+
+    font-size: medium;
+}
+
+.box img{
+    height: 50vh;
+    width: 25vw;
     background-size: cover;
     background-position: center;
-    font-size: medium;
+    
 }
 
 .box:hover {

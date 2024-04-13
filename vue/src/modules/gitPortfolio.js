@@ -18,26 +18,15 @@ const gitPortfolioItems = () => {
         category: [
             'Web','Lllustraton'
         ]
-        
-        // detail: {
-        //     title: "BEST SHIP PAINTING EVER!",
-        //     coverImage: "link",
-        //     paintedDate: "2024-01-22",
-        //     images: [
-        //         "",
-        //         "",
-        //     ] 
-        // }
     },
-
     {
         id: 2,
         title: 'Gjesing Poster',
         subTitle: 'her kemur okkurt',
         description: 'This is the 2 portfolio item',
         text: 'okkurt um gjesing poster',
-        thumbnail: '/src/assets/cc poster gjesing',
-        images: ['/src/assets/cc poster gjesing'],
+        thumbnail: '/src/assets/cc poster gjesing/A1 poster_gjesing.png',
+        images: ['/src/assets/cc poster gjesing/A1 poster_gjesing.png'],
         category: ['Graphic design'],
     },
     {
@@ -57,7 +46,7 @@ const gitPortfolioItems = () => {
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
         thumbnail: '/src/assets/Duck/VÆLKOMMIN plakat final.jpg',
-        image: [
+        images: [
             '/src/assets/Duck/VÆLKOMMIN plakat final.jpg',
             '/src/assets/Duck/4 ducks.jpg',
             '/src/assets/Duck/posters_on_a_wall.jpg'
