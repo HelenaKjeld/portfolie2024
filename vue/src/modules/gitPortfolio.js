@@ -54,7 +54,25 @@ const gitPortfolioItems = () => {
         
         ],
         category: ['Graphic design'],
-    } 
+    },
+    {
+        id: 5,
+        title: 'FOX',
+        subTitle: 'her kemur okkurt',
+        description: 'This is the first portfolio item',
+        text: 'okkurt um fox',
+        thumbnail: '/src/assets/BBQ/mockup computer og mobil.png',
+        
+        images: [
+            '/src/assets/BBQ/mockup computer og mobil.png',
+            '/src/assets/BBQ/a LOGO WHITE TEST black backgrund.png',
+            '/src/assets/BBQ/K logo black background.png',
+        ],
+        category: [
+            'Web',
+            'Illustraton'
+        ]
+    }, 
     ])
 
 

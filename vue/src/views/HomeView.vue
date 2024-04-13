@@ -111,25 +111,23 @@
     height: 50vh;
     width: 25vw;
     color: rgba(0, 255, 255, 0);
-    // padding-top: 2em;
-    // padding-left: 3ex;
     font-family: "Inter", sans-serif;
-
     font-size: medium;
+    position: relative;
 }
+
 
 .box img{
     height: 50vh;
     width: 25vw;
     background-size: cover;
     background-position: center;
-    z-index: 1;
-    opacity: 50%;
-
+    pointer-events: none;
+    position: absolute;
+    z-index: -5;
 }
 
 .box:hover {
-    background-color: blue;
     color: #ffffff;
     background: #ff3e25; 
 }
@@ -143,10 +141,10 @@
     text-decoration: none;
 }
 
-
-
 .content{
     z-index: 4;
+    padding-top: 2em;
+    padding-left: 3ex;
 }
 
 </style>
