@@ -8,24 +8,36 @@
         <div class="left">
             
             <div>
-                <h2>Title BBQ</h2>
-                <h4>exter okkko okkort</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi sit facere, autem rerum inventore? Pariatur ut vero ea aspernatur modi dignissimos nostrum! Iste quisquam doloribus pariatur! Laudantium, earum at.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi sit facere, autem rerum inventore? Pariatur ut vero ea aspernatur modi dignissimos nostrum! Iste quisquam doloribus pariatur! Laudantium, earum at.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi sit facere, autem rerum inventore? Pariatur ut vero ea aspernatur modi dignissimos nostrum! Iste quisquam doloribus pariatur! Laudantium, earum at.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad animi sit facere, autem rerum inventore? Pariatur ut vero ea aspernatur modi dignissimos nostrum! Iste quisquam doloribus pariatur! Laudantium, earum at.</p>
+                <h2>{{ specificPortfolioItem.title }}</h2>
+                <h4>{{specificPortfolioItem.subTitle }}</h4>
+                <p> {{specificPortfolioItem.description }}I</p>
+                
             </div>
           </div>
         <div class="right">
-            <img src="/src/assets/BBQ/mockup computer og mobil.png" alt="">
-            <img src="/src/assets/BBQ/a LOGO WHITE TEST black backgrund.png" alt="">
-            <img src="/src/assets/BBQ/K logo black background.png" alt="">
+            <img v-for="image in specificPortfolioItem.images" :key="portfolioItem"  :src="image" alt="">
+            
         </div>
     </div>        
 
 
     </div>
   </template>
+
+<script setup>
+import {ref} from 'vue'
+import { useRoute } from 'vue-router'
+import gitPortfolio from '@/modules/gitPortfolio'
+const {portfolioItems} = gitPortfolio()
+const route = useRoute()
+const id = ref(route.params.id)
+
+
+const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.value)
+
+
+
+</script>
   
   <style scoped>
 

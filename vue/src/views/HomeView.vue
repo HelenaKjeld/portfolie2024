@@ -1,4 +1,21 @@
-<script setup></script>
+<script setup>
+
+  import { ref, computed } from 'vue'/* */
+
+  import gitPortfolio from "@/modules/gitPortfolio"
+  const { portfolioItems} = gitPortfolio()
+
+  let selectedCategory = ref('') /* */
+
+  const filteredPortfolioItems = computed (() =>{
+    if (selectedCategory.value == '') {
+      return portfolioItems.value
+    }
+    else { 
+      return portfolioItems.value.filter(item => item.category[0] == selectedCategory.value) }
+  }) /* */
+
+</script>
 
 <template>
   <main>
@@ -20,20 +37,41 @@
 
 </div>
 
-<div  class="boxesrow1">
-    <div class="box box1">
-        <RouterLink :to="{ path: 'project/1' }">
-        <div class="content"> 
-            <h4>text og okkurt</h4>
-            <p>Duck</p> 
-        </div>
-    </RouterLink>
-    </div>
-    <div class="box box2"><h4>text og okkurt</h4><p>Duck</p></div>
-    <div class="box box3"><h4>text og okkurt</h4><p>Duck</p></div>
-    <div class="box box4"><h4>text og okkurt</h4><p>Duck</p></div>
 
+<div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem" class="card">
+
+    <h2>{{ portfolioItem.title }}</h2>
+    <h2>{{ portfolioItem.subTitle }}</h2>
+    <p>{{ portfolioItem.description }}</p>
+    <p>{{ portfolioItem.id }}</p>
+
+    <p :class="portfolioItem.category[0]">{{ portfolioItem.category }}</p>
+
+    <img :src="portfolioItem.thumbnail" alt="">
+    <div v-if="portfolioItem.link">
+        <a :href="portfolioItem.link">Link</a>
+    </div>
+    <div v-else>
+
+    </div>
 </div>
+
+
+<div  class="boxesrow1">
+
+    <div v-for="portfolioItem in filteredPortfolioItems" :key="portfolioItem.id" class="box" 
+    :style="{ backgroundImage: 'url(' + portfolioItem.thumbnail + ')' }">
+        <RouterLink :to="{ path: 'project/' + portfolioItem.id}">
+            <div class="content"> 
+                <h4>{{ portfolioItem.title }}</h4>
+                <p>{{ portfolioItem.subTitle }}</p> 
+            </div>
+        </RouterLink>
+    </div>
+</div>
+    <!-- <div class="box box2"><h4>text og okkurt</h4><p>Duck</p></div>
+    <div class="box box3"><h4>text og okkurt</h4><p>Duck</p></div>
+    <div class="box box4"><h4>text og okkurt</h4><p>Duck</p></div> -->
 
 <div class="boxesrow2">
     <div class="box box5"><h4>text og okkurt</h4><p>Duck</p></div>
