@@ -132,14 +132,15 @@
     font-family: "Inter", sans-serif;
     font-size: medium;
     position: relative;
+    overflow: hidden;
 }
 
 
 .box img{
-    height: 50vh;
-    width: 25vw;
-    background-size: cover;
-    background-position: center;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
     pointer-events: none;
     position: absolute;
     z-index: -5;
