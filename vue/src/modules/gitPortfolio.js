@@ -10,6 +10,8 @@ const gitPortfolioItems = () => {
         description: 'This is the first portfolio item',
         text: 'okkurt um bbq',
         thumbnail: '/src/assets/BBQ/mockup computer og mobil.png',
+        videos: [
+        ],
         images: [
             '/src/assets/BBQ/mockup computer og mobil.png',
             '/src/assets/BBQ/a LOGO WHITE TEST black backgrund.png',
@@ -27,6 +29,8 @@ const gitPortfolioItems = () => {
         description: 'This is the 2 portfolio item',
         text: 'okkurt um gjesing poster',
         thumbnail: '/src/assets/cc poster gjesing/A1 poster_gjesing.png',
+        videos: [
+        ],
         images: ['/src/assets/cc poster gjesing/A1 poster_gjesing.png'],
         category: ['Graphic design'],
     },
@@ -37,6 +41,8 @@ const gitPortfolioItems = () => {
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
         thumbnail:'/src/assets/csvpa/rhino poster.jpg',
+        videos: [
+        ],
         images: ['/src/assets/csvpa/rhino poster.jpg'],
         category: ['Graphic design'],
     },
@@ -47,6 +53,8 @@ const gitPortfolioItems = () => {
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
         thumbnail: '/src/assets/Duck/VÆLKOMMIN plakat final.jpg',
+        videos: [
+        ],
         images: [
             '/src/assets/Duck/VÆLKOMMIN plakat final.jpg',
             '/src/assets/Duck/4 ducks.jpg',
@@ -62,7 +70,9 @@ const gitPortfolioItems = () => {
         description: 'This is the first portfolio item',
         text: 'okkurt um fox',
         thumbnail: '/src/assets/fox car/fox_car_black_background.png',
-        video: '/src/assets/fox car/fox car.mp4',
+        videos: [
+            '/src/assets/fox car/fox car.mp4'
+        ],
         images: [
             '/src/assets/fox car/fox_car_black_background.png',
         ],
@@ -78,7 +88,8 @@ const gitPortfolioItems = () => {
         description: 'This is the first portfolio item',
         text: 'okkurt um Game Jam',
         thumbnail: '/src/assets/game jam 2022 fox chiken/WE ARE MOVINg with fox.png',
-        video: '',
+        videos: [
+        ],
         images: [
             '/src/assets/game jam 2022 fox chiken/WE ARE MOVINg with fox.png',
             '/src/assets/game jam 2022 fox chiken/chiken and cik.png',
@@ -95,7 +106,8 @@ const gitPortfolioItems = () => {
         description: 'This is the first portfolio item',
         text: 'okkurt um UX',
         thumbnail: '/src/assets/UX 2022/ux_sem1_phone_muckup.png',
-        video: '',
+        videos: [
+        ],
         images: [
             '/src/assets/UX 2022/ux_sem1_phone_muckup.png',
             '/src/assets/UX 2022/æic of all screens.png',
@@ -111,7 +123,8 @@ const gitPortfolioItems = () => {
         description: 'This is the first portfolio item',
         text: 'okkurt um UX',
         thumbnail: '/src/assets/46880987_283095715676858_7357034864991797248_n.jpg',
-        video: '',
+        videos: [
+        ],
         images: [
             '/src/assets/46880987_283095715676858_7357034864991797248_n.jpg',
         ],

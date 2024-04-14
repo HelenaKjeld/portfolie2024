@@ -17,7 +17,7 @@
           </div>
         <div class="right">
             <img v-for="image in specificPortfolioItem.images" :key="image"  :src="image" alt="">
-            <video v-for="video in specificPortfolioItem.Video" :key="video" :src="video"></video>
+            <video v-for="video in specificPortfolioItem.videos" controls autoplay muted loop :key="video" :src="video"></video>
         </div>
     </div>        
 
