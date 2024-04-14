@@ -122,7 +122,7 @@
 
 .boxesrow1 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .box {

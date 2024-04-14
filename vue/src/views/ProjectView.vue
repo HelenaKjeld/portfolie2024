@@ -10,14 +10,14 @@
             
             <div>
                 <h2>{{ specificPortfolioItem.title }}</h2>
-                <h4>{{specificPortfolioItem.subTitle }}</h4>
-                <p> {{specificPortfolioItem.description }}I</p>
+                <h4>{{ specificPortfolioItem.subTitle }}</h4>
+                <p> {{ specificPortfolioItem.description }}</p>
                 
             </div>
           </div>
         <div class="right">
-            <img v-for="image in specificPortfolioItem.images" :key="portfolioItem"  :src="image" alt="">
-            
+            <img v-for="image in specificPortfolioItem.images" :key="image"  :src="image" alt="">
+            <video v-for="video in specificPortfolioItem.Video" :key="video" :src="video"></video>
         </div>
     </div>        
 
