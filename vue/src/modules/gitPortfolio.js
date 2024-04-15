@@ -3,9 +3,11 @@ import { ref } from 'vue'
 // thumbnail  img
 
 import BBQ_thumbnail from '@/assets/BBQ/BBQ_thumbnail.jpg'
-import Gjesing_thumbnail from '@/assets/cc_poster_gjesing/BBQ_thumbnail.jpg'
-
+import Gjesing_thumbnail from '@/assets/cc_poster_ gjesing/gjesing_poster_thumbnail.jpg'
 import csvpa_thumbnail from '@/assets/csvpa/rhino_poster_thumbnail.jpg'
+import duck_thumbnail from '@/assets/Duck/duck_welcome_poster_ thumbnail.jpg'
+import foxcar_thumbnail from '@/assets/fox_car/fox_car_natur_background_thumbnail.png'
+
 
 const gitPortfolioItems = () => {
 
@@ -37,7 +39,7 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt',
         description: 'This is the 2 portfolio item',
         text: 'okkurt um gjesing poster',
-        thumbnail: BBQ_thumbnail,
+        thumbnail: Gjesing_thumbnail,
         videos: [
         ],
         images: ['/src/assets/cc poster gjesing/A1 poster_gjesing.png'],
@@ -61,7 +63,7 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt',
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
-        thumbnail: '/src/assets/Duck/VÆLKOMMIN plakat final.jpg',
+        thumbnail: duck_thumbnail,
         videos: [
         ],
         images: [
@@ -78,12 +80,12 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt um fox car',
         description: 'This is the first portfolio item',
         text: 'okkurt um fox',
-        thumbnail: '/src/assets/fox car/fox_car_black_background.png',
+        thumbnail: foxcar_thumbnail,
         videos: [
-            '/src/assets/fox car/fox car.mp4'
+            '/src/assets/fox_car/fox car.mp4'
         ],
         images: [
-            '/src/assets/fox car/fox_car_black_background.png',
+            '/src/assets/fox_car/fox_car_natur_background_thumbnail.png',
         ],
         category: [
             'Graphic design',
