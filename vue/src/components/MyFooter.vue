@@ -1,24 +1,23 @@
 <template>
-    <!-- <footer>
-        <img src="/src/assets/logo footer.png" class="logo_footer" alt="logo footer"> 
+    <footer>
+        <img src="/src/assets/logo_footer.png" class="logo_footer" alt="logo footer"> 
         
         <div class="footerlinks">
-            <ul>
-                <div>
-                    <li class="footeremail"> 
-                        <img src="/" alt="">
-                        <a href="hk0209v8@hotmail.com"> hk0209v8@hotmail.com </a> </li>
+                <div class="links_footer"> 
+                        <img src="/src/assets/icons/email_red.png" alt="">
+                        <a href="hk0209v8@hotmail.com"> hk0209v8@hotmail.com </a> 
                 </div>
-                <li class="hej2"> <a href="9"> Privacy Policy </a> </li>
-                <li class="hej3"> <a href="10"> Cookie Settings </a> </li>
-                
-            </ul>
-            <ul>
-            <img class="Facebook" src="img/facebook.png" alt="facebook">
-        </ul>
+                <div class="links_footer">
+                        <img src="/src/assets/icons/linkin_red.png" alt="">
+                        <a href="https://www.linkedin.com/in/helena-kjeld/"> linkedin</a> 
+                </div>
+                <div class="links_footer">
+                        <img src="/src/assets/icons/instagram_red.png" alt=""> 
+                        <a href="https://www.instagram.com/provo_art/?hl=da"> instagram</a> 
+                </div>
         </div>
     
-    </footer> -->
+    </footer>
 </template>
 
 <script setup>
@@ -27,38 +26,44 @@
 
 <style lang="scss" scoped>
 
+footer{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
 .logo_footer{
     height: 20%;
     width: 20%;
 }
 
-.hej ul  {
-        display: flex;
-        color: #00bba5;
-    }
-    
-.hej ul li {
-       list-style: none;
-    }
-    
-.hej ul li a {
-        text-decoration: none;
-        color: #00bba5;
-        margin: 15px;
+.footerlinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex: 1;
+    margin-top: 50px;
 }
-    
-.Facebook {
-        width: 20px;
-        height: 20px;
-        margin: 10px;
-        cursor: pointer;
+
+a{
+    text-decoration: none;
+    color: #e62721;
 }
-    
-.Linkedin {
-        width: 20px;
-        height: 20px;
-        margin: 10px;
-        cursor: pointer;
+
+.links_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
 }
+
+.links_footer img{
+    width: 30px;
+
+}
+
 
 </style>

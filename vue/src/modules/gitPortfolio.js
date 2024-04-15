@@ -56,7 +56,7 @@ const gitPortfolioItems = () => {
         thumbnail: csvpa_thumbnail,
         videos: [
         ],
-        images: ['/src/assets/csvpa/rhino poster.jpg'],
+        images: ['/src/assets/csvpa/rhino_poster.jpg'],
         category: ['Graphic design'],
     },
     {

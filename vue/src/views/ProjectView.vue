@@ -90,6 +90,10 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     /* height: 35vh; */
     padding-bottom: 20px;
 }
+
+video{
+  width: 30vw;
+}
   /* @media (min-width: 1024px) {
     .project {
       min-height: 100vh;
