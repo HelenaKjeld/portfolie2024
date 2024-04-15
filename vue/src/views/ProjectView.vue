@@ -69,21 +69,24 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 }
 
 .left{
-    width: 85%;
-    padding-left: 80px;
+    /* width: 85%; */
+    /* padding-left: 80px; */
+    display: flex;
+    flex-direction:column;
+    align-items: center;
     flex: 1;
 }
 
 .right{
-    width: 2%;
     display: flex;
     flex-direction:column;
     justify-content: center;
+    align-items: center;
     flex: 1;
 }
 
 .right img{
-    width: 45vw;
+    width: 30vw;
     /* height: 35vh; */
     padding-bottom: 20px;
 }

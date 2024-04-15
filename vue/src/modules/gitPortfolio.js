@@ -6,7 +6,9 @@ import BBQ_thumbnail from '@/assets/BBQ/BBQ_thumbnail.jpg'
 import Gjesing_thumbnail from '@/assets/cc_poster_ gjesing/gjesing_poster_thumbnail.jpg'
 import csvpa_thumbnail from '@/assets/csvpa/rhino_poster_thumbnail.jpg'
 import duck_thumbnail from '@/assets/Duck/duck_welcome_poster_ thumbnail.jpg'
-import foxcar_thumbnail from '@/assets/fox_car/fox_car_natur_background_thumbnail.png'
+import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.jpg'
+import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.jpg'
+import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.jpg'
 
 
 const gitPortfolioItems = () => {
@@ -24,9 +26,9 @@ const gitPortfolioItems = () => {
         videos: [
         ],
         images: [
-            '/src/assets/BBQ/mockup computer og mobil.png',
-            '/src/assets/BBQ/a LOGO WHITE TEST black backgrund.png',
-            '/src/assets/BBQ/K logo black background.png',
+            '/src/assets/BBQ/mockup_computer_og_mobil_Small.png',
+            '/src/assets/BBQ/a_LOGO_WHITE_TEST_black_backgrund_Small.png',
+            '/src/assets/BBQ/K_logo_black_background.png',
         ],
         category: [
             'Web',
@@ -98,12 +100,13 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt um Game Jam',
         description: 'This is the first portfolio item',
         text: 'okkurt um Game Jam',
-        thumbnail: '/src/assets/game jam 2022 fox chiken/WE ARE MOVINg with fox.png',
+        thumbnail: gamejam_thumbnail,
         videos: [
         ],
         images: [
-            '/src/assets/game jam 2022 fox chiken/WE ARE MOVINg with fox.png',
-            '/src/assets/game jam 2022 fox chiken/chiken and cik.png',
+            '/src/assets/game_jam_2022_fox_chiken/WE_ARE_MOVING_with_fox_Small.png',
+            '/src/assets/game_jam_2022_fox_chiken/chiken_and_cik.png',
+            '/src/assets/game_jam_2022_fox_chiken/fox.png'
         ],
         category: [
             'Graphic design',
@@ -116,12 +119,12 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt um UX',
         description: 'This is the first portfolio item',
         text: 'okkurt um UX',
-        thumbnail: '/src/assets/UX 2022/ux_sem1_phone_muckup.png',
+        thumbnail: ux_2022_thumbnail,
         videos: [
         ],
         images: [
-            '/src/assets/UX 2022/ux_sem1_phone_muckup.png',
-            '/src/assets/UX 2022/æic of all screens.png',
+            '/src/assets/UX_2022/ux_sem1_phone_muckup.png',
+            '/src/assets/UX_2022/all_of_the_screens.png',
         ],
         category: [
             'UX',
