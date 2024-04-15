@@ -1,5 +1,12 @@
 import { ref } from 'vue'
 
+// thumbnail  img
+
+import BBQ_thumbnail from '@/assets/BBQ/BBQ_thumbnail.jpg'
+import Gjesing_thumbnail from '@/assets/cc_poster_gjesing/BBQ_thumbnail.jpg'
+
+import csvpa_thumbnail from '@/assets/csvpa/rhino_poster_thumbnail.jpg'
+
 const gitPortfolioItems = () => {
 
     const portfolioItems = ref([
@@ -9,7 +16,9 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt',
         description: 'This is the first portfolio item',
         text: 'okkurt um bbq',
-        thumbnail: '/src/assets/BBQ/mockup computer og mobil.png',
+        // gør sådan istedet for:
+        thumbnail: BBQ_thumbnail,
+        //thumbnail: '/src/assets/BBQ/mockup computer og mobil.png',
         videos: [
         ],
         images: [
@@ -28,7 +37,7 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt',
         description: 'This is the 2 portfolio item',
         text: 'okkurt um gjesing poster',
-        thumbnail: '/src/assets/cc poster gjesing/A1 poster_gjesing.png',
+        thumbnail: BBQ_thumbnail,
         videos: [
         ],
         images: ['/src/assets/cc poster gjesing/A1 poster_gjesing.png'],
@@ -40,7 +49,7 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt',
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
-        thumbnail:'/src/assets/csvpa/rhino poster.jpg',
+        thumbnail: csvpa_thumbnail,
         videos: [
         ],
         images: ['/src/assets/csvpa/rhino poster.jpg'],
@@ -57,8 +66,8 @@ const gitPortfolioItems = () => {
         ],
         images: [
             '/src/assets/Duck/VÆLKOMMIN plakat final.jpg',
-            '/src/assets/Duck/4 ducks.jpg',
-            '/src/assets/Duck/posters_on_a_wall.jpg'
+            '/src/assets/Duck/4 ducks.png',
+            '/src/assets/Duck/posters_on_a_wall.png'
         
         ],
         category: ['Graphic design'],
