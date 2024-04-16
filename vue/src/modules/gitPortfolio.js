@@ -10,6 +10,16 @@ import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.jpg'
 import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.jpg'
 import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.jpg'
 
+// images for ProjectView
+
+import BBQ_computer_mockup from '@/assets/BBQ/mockup_computer_og_mobil_Small.png'
+import BBQ_main_logo from '@/assets/BBQ/a_LOGO_WHITE_TEST_black_backgrund_Small.png'
+import BBQ_2st_logo from '@/assets/BBQ/K_logo_black_background.png'
+
+import Gjesing_poster from '@/assets/cc_poster_ gjesing/A1_poster_gjesing.png'
+
+
+
 
 const gitPortfolioItems = () => {
 
@@ -20,15 +30,11 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt',
         description: 'This is the first portfolio item',
         text: 'okkurt um bbq',
-        // gør sådan istedet for:
         thumbnail: BBQ_thumbnail,
-        //thumbnail: '/src/assets/BBQ/mockup computer og mobil.png',
-        videos: [
-        ],
         images: [
-            '/src/assets/BBQ/mockup_computer_og_mobil_Small.png',
-            '/src/assets/BBQ/a_LOGO_WHITE_TEST_black_backgrund_Small.png',
-            '/src/assets/BBQ/K_logo_black_background.png',
+            BBQ_computer_mockup,
+            BBQ_main_logo,
+            BBQ_2st_logo,
         ],
         category: [
             'Web',
@@ -42,9 +48,7 @@ const gitPortfolioItems = () => {
         description: 'This is the 2 portfolio item',
         text: 'okkurt um gjesing poster',
         thumbnail: Gjesing_thumbnail,
-        videos: [
-        ],
-        images: ['/src/assets/cc_poster_ gjesing/A1_poster_gjesing.png'],
+        images: [ Gjesing_poster ],
         category: ['Graphic design'],
     },
     {
