@@ -5,15 +5,15 @@
         <div class="footerlinks">
                 <div class="links_footer"> 
                         <img src="/src/assets/icons/email_red.png" alt="">
-                        <a href="hk0209v8@hotmail.com"> hk0209v8@hotmail.com </a> 
+                        <a href="mailto:hk0209v8@hotmail.com"> hk0209v8@hotmail.com </a> 
                 </div>
                 <div class="links_footer">
                         <img src="/src/assets/icons/linkin_red.png" alt="">
-                        <a href="https://www.linkedin.com/in/helena-kjeld/"> linkedin</a> 
+                        <a href="https://www.linkedin.com/in/helena-kjeld/" target="_blank" > linkedin</a> 
                 </div>
                 <div class="links_footer">
                         <img src="/src/assets/icons/instagram_red.png" alt=""> 
-                        <a href="https://www.instagram.com/provo_art/?hl=da"> instagram</a> 
+                        <a href="https://www.instagram.com/provo_art/?hl=da" target="_blank" > instagram</a> 
                 </div>
         </div>
     
