@@ -20,8 +20,8 @@
         </div>
         <div class="contact">
             <h3>Contact</h3>
-            <a href="hk0209v8@hotmail.com"> <p>linkedin.com/in/helena-kjeld</p></a>
-            <a href="https://www.linkedin.com/in/helena-kjeld/"><p> hk0209v8@hotmail.com</p></a>
+            <a href="https://www.linkedin.com/in/helena-kjeld/"> <p>linkedin.com/in/helena-kjeld</p></a>
+            <a href="hk0209v8@hotmail.com"><p> hk0209v8@hotmail.com</p></a>
             <a href=""><p>CV: link til cv/ PDF</p></a>
       </div>
 </div>

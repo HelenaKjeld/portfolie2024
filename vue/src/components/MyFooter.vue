@@ -65,5 +65,23 @@ a{
 
 }
 
+@media screen and (max-width: 700px) {
+
+    footer{
+    display: flex;
+    flex-direction: column-reverse;
+  
+}
+    .footerlinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    margin-top: 50px;
+    gap: 10px;
+    }
+}
+
+
 
 </style>

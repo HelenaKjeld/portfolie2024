@@ -94,12 +94,22 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 video{
   width: 30vw;
 }
-  /* @media (min-width: 1024px) {
-    .project {
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-    }
-  } */
+
+@media screen and (max-width: 700px) {
+  .containerbbq {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .right img{
+    width: 60vw;
+    padding-bottom: 20px;
+}
+ 
+.back{
+    margin-top: 5px;
+}
+
+}
   </style>
   

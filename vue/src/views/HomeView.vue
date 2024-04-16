@@ -167,4 +167,29 @@
     padding-left: 3ex;
 }
 
+
+
+@media screen and (max-width: 700px) {
+    .topcontainer{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+  .boxesrow1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+ 
+
+}
+
+@media screen and (max-width: 500px) {
+  .boxesrow1 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+ 
+
+}
+
 </style>
