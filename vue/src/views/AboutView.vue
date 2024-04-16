@@ -20,9 +20,9 @@
         </div>
         <div class="contact">
             <h3>Contact</h3>
-            <p>linkedin.com/in/helena-kjeld</p>
-            <p> hk0209v8@hotmail.com</p>
-            <p>CV: link til cv/ PDF</p>
+            <a href="hk0209v8@hotmail.com"> <p>linkedin.com/in/helena-kjeld</p></a>
+            <a href="https://www.linkedin.com/in/helena-kjeld/"><p> hk0209v8@hotmail.com</p></a>
+            <a href=""><p>CV: link til cv/ PDF</p></a>
       </div>
 </div>
 
@@ -63,18 +63,30 @@
 
 .text_about_me{
     flex: 1;
+    margin-right: 40px;
 }
 
 .text_about_me h3{
     font-weight: 350;
     font-style: italic;
+    color: #e62721;
 }
 
+.text_about_me h1{
+    color: #e62721;
+}
 
 
 .contact{
     flex: 0,5;
+    color: #e62721;
 }
+
+.contact a{
+  direction: none;
+  color: #e62721;
+}
+
 
 .about_row{
     display: flex;

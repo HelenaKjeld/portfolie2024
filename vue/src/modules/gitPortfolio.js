@@ -44,7 +44,7 @@ const gitPortfolioItems = () => {
         thumbnail: Gjesing_thumbnail,
         videos: [
         ],
-        images: ['/src/assets/cc poster gjesing/A1 poster_gjesing.png'],
+        images: ['/src/assets/cc_poster_ gjesing/A1_poster_gjesing.png'],
         category: ['Graphic design'],
     },
     {
