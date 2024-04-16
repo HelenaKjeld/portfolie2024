@@ -127,7 +127,7 @@
 
 .box {
     height: 50vh;
-    width: 25vw;
+    width: auto;
     color: rgba(0, 255, 255, 0);
     font-family: "Inter", sans-serif;
     font-size: medium;
