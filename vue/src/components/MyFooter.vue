@@ -77,7 +77,7 @@ a{
     flex-direction: column;
     justify-content: space-evenly;
     gap: 10px;
-    margin-top: 0px;
+    margin-top: 30px;
     }
 }
 

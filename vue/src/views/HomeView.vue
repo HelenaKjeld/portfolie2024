@@ -173,6 +173,7 @@
     .topcontainer{
     margin-left: 20px;
     margin-right: 20px;
+    gap: 10px;
 }
 
   .boxesrow1 {

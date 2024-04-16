@@ -43,9 +43,10 @@ const gitPortfolioItems = () => {
     {
         id: 1,
         title: 'BBQ',
-        subTitle: 'her kemur okkurt',
-        description: 'This is the first portfolio item',
-        text: 'okkurt um bbq',
+        subTitle: 'LongHorn BBQ Projekt',
+        description: 'UX og UI: udarbejdet en prototype af en biograf App',
+        text: 'Til vores slut projekt i første semester, var vores case LongHorn BBQ',
+        WorkWith: 'Arbejdet sammen med: Alberte,Anne-sofie og Dream',
         thumbnail: BBQ_thumbnail,
         images: [
             BBQ_computer_mockup,
@@ -54,7 +55,8 @@ const gitPortfolioItems = () => {
         ],
         category: [
             'Web',
-            'Illustration'
+            'Illustration',
+            'UX'
         ]
     },
     {
