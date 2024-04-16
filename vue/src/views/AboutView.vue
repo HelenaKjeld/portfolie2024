@@ -1,5 +1,5 @@
 <template>
-<div class="about_row">
+<div class="about_me">
       <div class="image_of_me"><img class="MeImg" src="/src/assets/round.png" alt=""></div>
         
       <div class="text_about_me">
@@ -36,19 +36,14 @@
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
 
-.about_row{
+.about_me{
     margin-top: 240xp;
     padding-top: 70px;
     gap: 20px;
     margin-right: 30px;
+    display: flex;
+    flex-direction: row
 }
 
 .MeImg{
@@ -88,7 +83,7 @@
 }
 
 
-.about_row{
+.about_me{
     display: flex;
     justify-content: center;
 
@@ -101,5 +96,27 @@
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 700px) {
+  .about_me{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-right: 0px;
+  }
 
+  .MeImg{
+    width: 80%;
+  }
+  .image_of_me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .text_about_me{
+    margin-left: 20px;
+  }
+  .contact{
+    margin-left: 20px;
+  }
+}
 </style>
