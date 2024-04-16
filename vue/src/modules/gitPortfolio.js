@@ -9,6 +9,7 @@ import duck_thumbnail from '@/assets/Duck/duck_welcome_poster_ thumbnail.jpg'
 import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.jpg'
 import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.jpg'
 import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.jpg'
+import fish_box_plaskit from '@/assets/fishes_box_plaskit.jpg'
 
 // images for ProjectView
 
@@ -18,6 +19,21 @@ import BBQ_2st_logo from '@/assets/BBQ/K_logo_black_background.png'
 
 import Gjesing_poster from '@/assets/cc_poster_ gjesing/A1_poster_gjesing.png'
 
+import csvpa_poster from '@/assets/csvpa/rhino_poster.jpg'
+
+import duck_poster from '@/assets/Duck/VÆLKOMMIN plakat final.jpg'
+import duck_4images from '@/assets/Duck/4 ducks.png'
+import duck_posters_on_wall from '@/assets/Duck/posters_on_a_wall.png'
+
+import foxcar_image from '@/assets/fox_car/fox_car_natur_background_thumbnail.png'
+import foxcar_video from '@/assets/fox_car/fox car.mp4'
+
+import gamejam_game_cover from '@/assets/game_jam_2022_fox_chiken/WE_ARE_MOVING_with_fox_Small.png'
+import gamejam_chikens from '@/assets/game_jam_2022_fox_chiken/chiken_and_cik.png'
+import gamejam_fox from '@/assets/game_jam_2022_fox_chiken/fox.png'
+
+import ux_2022_mockup from '@/assets/UX_2022/ux_sem1_phone_muckup.png'
+import ux_2022_all_pages from '@/assets/UX_2022/all_of_the_screens.png'
 
 
 
@@ -58,9 +74,7 @@ const gitPortfolioItems = () => {
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
         thumbnail: csvpa_thumbnail,
-        videos: [
-        ],
-        images: ['/src/assets/csvpa/rhino_poster.jpg'],
+        images: [ csvpa_poster ],
         category: ['Graphic design'],
     },
     {
@@ -70,12 +84,10 @@ const gitPortfolioItems = () => {
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
         thumbnail: duck_thumbnail,
-        videos: [
-        ],
         images: [
-            '/src/assets/Duck/VÆLKOMMIN plakat final.jpg',
-            '/src/assets/Duck/4 ducks.png',
-            '/src/assets/Duck/posters_on_a_wall.png'
+            duck_poster,
+            duck_4images,
+            duck_posters_on_wall,
         
         ],
         category: ['Graphic design'],
@@ -88,10 +100,10 @@ const gitPortfolioItems = () => {
         text: 'okkurt um fox',
         thumbnail: foxcar_thumbnail,
         videos: [
-            '/src/assets/fox_car/fox car.mp4'
+            foxcar_video,
         ],
         images: [
-            '/src/assets/fox_car/fox_car_natur_background_thumbnail.png',
+            foxcar_image,
         ],
         category: [
             'Graphic design',
@@ -105,12 +117,10 @@ const gitPortfolioItems = () => {
         description: 'This is the first portfolio item',
         text: 'okkurt um Game Jam',
         thumbnail: gamejam_thumbnail,
-        videos: [
-        ],
         images: [
-            '/src/assets/game_jam_2022_fox_chiken/WE_ARE_MOVING_with_fox_Small.png',
-            '/src/assets/game_jam_2022_fox_chiken/chiken_and_cik.png',
-            '/src/assets/game_jam_2022_fox_chiken/fox.png'
+            gamejam_game_cover,
+            gamejam_chikens,
+            gamejam_fox,
         ],
         category: [
             'Graphic design',
@@ -124,11 +134,9 @@ const gitPortfolioItems = () => {
         description: 'This is the first portfolio item',
         text: 'okkurt um UX',
         thumbnail: ux_2022_thumbnail,
-        videos: [
-        ],
         images: [
-            '/src/assets/UX_2022/ux_sem1_phone_muckup.png',
-            '/src/assets/UX_2022/all_of_the_screens.png',
+            ux_2022_mockup,
+            ux_2022_all_pages,
         ],
         category: [
             'UX',
@@ -140,11 +148,9 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt Fish Box',
         description: 'This is the first portfolio item',
         text: 'okkurt um UX',
-        thumbnail: '/src/assets/46880987_283095715676858_7357034864991797248_n.jpg',
-        videos: [
-        ],
+        thumbnail: fish_box_plaskit,
         images: [
-            '/src/assets/46880987_283095715676858_7357034864991797248_n.jpg',
+            fish_box_plaskit,
         ],
         category: [
             'UX',
