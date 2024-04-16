@@ -174,13 +174,18 @@
     margin-left: 20px;
     margin-right: 20px;
     gap: 10px;
-}
+    }
 
   .boxesrow1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
  
+  .box{
+    width: 50vW;
+    height: 25vh;
+  }
+
 
 }
 
