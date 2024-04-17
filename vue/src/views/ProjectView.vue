@@ -12,6 +12,7 @@
                 <h2>{{ specificPortfolioItem.title }}</h2>
                 <h4>{{ specificPortfolioItem.subTitle }}</h4>
                 <p> {{ specificPortfolioItem.description }}</p>
+                <p> {{ specificPortfolioItem.text }}</p>
                 <p class="work_with"> {{ specificPortfolioItem.WorkWith }}</p>
                 
             </div>
@@ -76,6 +77,7 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     flex-direction:column;
     align-items: center;
     flex: 1;
+    margin-left: 80px;
 }
 
 .work_with{

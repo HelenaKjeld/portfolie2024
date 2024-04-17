@@ -45,7 +45,7 @@ const gitPortfolioItems = () => {
         title: 'BBQ',
         subTitle: 'LongHorn BBQ Projekt',
         description: 'UX og UI: udarbejdet en prototype af en biograf App',
-        text: 'Til vores slut projekt i første semester, var vores case LongHorn BBQ',
+        text: 'Til vores slut projekt i første semester, var vores case LongHorn BBQ konkurrence Danmark 2022. Vi lavede en wed prototype mend flere sider og to forskellige logoer.',
         WorkWith: 'Arbejdet sammen med: Alberte,Anne-sofie og Dream',
         thumbnail: BBQ_thumbnail,
         images: [
@@ -62,8 +62,8 @@ const gitPortfolioItems = () => {
     {
         id: 2,
         title: 'Gjesing Poster',
-        subTitle: 'her kemur okkurt',
-        description: 'This is the 2 portfolio item',
+        subTitle: 'Gjesing Poster',
+        description: 'Graphic design ',
         text: 'okkurt um gjesing poster',
         thumbnail: Gjesing_thumbnail,
         images: [ Gjesing_poster ],
@@ -82,7 +82,7 @@ const gitPortfolioItems = () => {
     {
         id: 4,
         title: 'DUCK',
-        subTitle: 'her kemur okkurt',
+        subTitle: 'Poster and Signs',
         description: 'This is the 3 portfolio item',
         text: 'okkurt um CSVPA poster',
         thumbnail: duck_thumbnail,
@@ -90,7 +90,6 @@ const gitPortfolioItems = () => {
             duck_poster,
             duck_4images,
             duck_posters_on_wall,
-        
         ],
         category: ['Graphic design'],
     },
