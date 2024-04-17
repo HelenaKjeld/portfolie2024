@@ -75,7 +75,6 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     /* padding-left: 80px; */
     display: flex;
     flex-direction:column;
-    align-items: center;
     flex: 1;
     margin-left: 80px;
 }
