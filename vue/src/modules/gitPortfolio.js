@@ -66,8 +66,12 @@ const gitPortfolioItems = () => {
         description: 'Graphic design ',
         text: 'This poster is for Gjesing area in Esbjerg.The poster shows that Esbjerg has a lot of green areas withe wild animals such as deer. And that Esbjerg isnt just a port.',
         thumbnail: Gjesing_thumbnail,
-        images: [ Gjesing_poster ],
-        category: ['Graphic design'],
+        images: [
+             Gjesing_poster 
+            ],
+        category: [
+            'Graphic design'
+        ],
     },
     {
         id: 3,
@@ -76,8 +80,12 @@ const gitPortfolioItems = () => {
         description: 'Graphic design',
         text: 'This rhino poster was made a response for WWF posters that are quite graphic. And most people dont want look at them. This poster was made more family friendly, but the messages still gets across.',
         thumbnail: csvpa_thumbnail,
-        images: [ csvpa_poster ],
-        category: ['Graphic design'],
+        images: [ 
+            csvpa_poster 
+        ],
+        category: [
+            'Graphic design'
+        ],
     },
     {
         id: 4,
@@ -91,7 +99,9 @@ const gitPortfolioItems = () => {
             duck_4images,
             duck_posters_on_wall,
         ],
-        category: ['Graphic design'],
+        category: [
+            'Graphic design'
+        ],
     },
     {
         id: 5,
@@ -134,6 +144,7 @@ const gitPortfolioItems = () => {
         subTitle: 'her kemur okkurt um UX',
         description: 'This is the first portfolio item',
         text: 'okkurt um UX',
+        WorkWith: 'Worked with: Ida',
         thumbnail: ux_2022_thumbnail,
         images: [
             ux_2022_mockup,

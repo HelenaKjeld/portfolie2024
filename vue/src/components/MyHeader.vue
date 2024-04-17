@@ -38,10 +38,10 @@ a{
 }
 
 .logo {
-    width: 50%; /* Adjust the width as necessary, it scales with the viewport */
-    max-width: 100px; /* Maximum size of the logo */
-    min-width: 50px; /* Minimum size of the logo */
-    height: auto; /* Keeps the aspect ratio intact */
+    width: 50%; 
+    max-width: 100px; 
+    min-width: 50px; 
+    height: auto; 
 }
 
 </style>

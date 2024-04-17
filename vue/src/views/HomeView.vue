@@ -43,8 +43,8 @@
 <template>
   <main>
  
-    <div class="topcontainer">
-       
+<div class="topcontainer">
+    
         <button v-for="item in categories" :key="item.title"  
         :class="[
             {selected: selectedCategory === item.category},
@@ -54,13 +54,6 @@
         >
         {{ item.title }}
         </button>
-        <!-- <button @click="selectedCategory = 'UX'"><span>UX</span></button> 
-        <button @click="selectedCategory = 'Web'"><span>Web</span></button>
-        <button @click="selectedCategory = 'Graphic design'"><span>Graphic design</span></button>
-        <button @click="selectedCategory = 'Illustration'"><span>Illustration</span></button>
-        <button @click="selectedCategory = ''"><span>ALL</span></button> -->
-
-
 </div>
 
 <div  class="boxesrow1">
