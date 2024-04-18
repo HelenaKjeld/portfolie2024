@@ -42,6 +42,12 @@ a{
     max-width: 100px; 
     min-width: 50px; 
     height: auto; 
+    animation-name: rotate;
+    animation-duration: 1s;
+}
+
+@keyframes rotate{
+    100%{ transform: rotate(360deg);}
 }
 
 </style>

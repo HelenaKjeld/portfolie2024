@@ -95,8 +95,8 @@ const gitPortfolioItems = () => {
         id: 4,
         title: 'DUCK',
         subTitle: 'Poster and Signs',
-        description: 'This is poster and signs ver made as a ',
-        text: 'okkurt um CSVPA poster',
+        description: '',
+        text: 'This is poster and signs were made as a proposal for a swimming i Klaskvík',
         thumbnail: duck_thumbnail,
         images: [
             duck_poster,

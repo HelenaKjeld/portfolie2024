@@ -1,4 +1,5 @@
 <template>
+
 <div class="about_me">
       <div class="image_of_me"><img class="MeImg" src="/src/assets/round.png" alt=""></div>
         
@@ -27,6 +28,7 @@
 </div>
 
 
+
 <div class="video">
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/uYm7qFC54ok?si=ANvbNLo6ILC5t0q3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -36,6 +38,8 @@
 </template>
 
 <style>
+
+
 
 .about_me{
     margin-top: 240xp;
