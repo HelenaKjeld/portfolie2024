@@ -12,7 +12,7 @@
                 <h2>{{ specificPortfolioItem.title }}</h2>
                 <h4>{{ specificPortfolioItem.subTitle }}</h4>
                 <p> {{ specificPortfolioItem.description }}</p>
-                <p> {{ specificPortfolioItem.text }}</p>
+                <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p>
                 <p class="work_with"> {{ specificPortfolioItem.WorkWith }}</p>
                 
             </div>

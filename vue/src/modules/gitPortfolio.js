@@ -49,7 +49,10 @@ const gitPortfolioItems = () => {
         title: 'Longhorn BBQ Project',
         subTitle: 'UX, UI og web',
         description: 'UI/UX, and Web: From Design to Execution',
-        text: 'For our final project in the first semester, we had to design a website using Adobe XD and implement it using HTML, CSS and JavaScript. Our case was the LongHorn BBQ competition 2022 held in Denmark. We made a web prototype that featured several pages and we also designed two different logos.',
+        text: [
+            'For our final project in the first semester, we had to design a website using Adobe XD and implement it using HTML, CSS and JavaScript. Our case was the LongHorn BBQ competition 2022 held in Denmark. We made a web prototype that featured several pages and we also designed two different logos.', 
+            'Repository: https://github.com/HelenaKjeld/BBQ-DM-2023'
+        ],
         WorkWith: 'Collaborators: Alberte, Anne-sofie and Dream',
         thumbnail: BBQ_thumbnail,
         images: [
@@ -68,7 +71,7 @@ const gitPortfolioItems = () => {
         title: 'Gjesing Poster',
         subTitle: 'Poster',
         description: 'Graphic design ',
-        text: 'This poster is for Gjesing area in Esbjerg. The poster shows that Esbjerg has a lot of green areas with wild animals such as deer. And that Esbjerg is not just a port.',
+        text: ['This poster is for Gjesing area in Esbjerg. The poster shows that Esbjerg has a lot of green areas with wild animals such as deer. And that Esbjerg is not just a port.'],
         thumbnail: Gjesing_thumbnail,
         images: [
              Gjesing_poster 
@@ -82,7 +85,7 @@ const gitPortfolioItems = () => {
         title: 'Rhino',
         subTitle: 'Poster',
         description: 'Graphic design',
-        text: "This rhino poster was made as a response for the WWF posters that were quite graphic. Most people don't want to look at them. This poster was made to be more family friendly while still getting its message across.",
+        text: ["This rhino poster was made as a response for the WWF posters that were quite graphic. Most people don't want to look at them. This poster was made to be more family friendly while still getting its message across."],
         thumbnail: csvpa_thumbnail,
         images: [ 
             csvpa_poster 
@@ -96,7 +99,7 @@ const gitPortfolioItems = () => {
         title: 'DUCK',
         subTitle: 'Poster and Signs',
         description: 'Graphic design',
-        text: 'The poster and signs were made as a proposal for the swimming pool in Klaksvík, Faroe Islands.',
+        text: ['The poster and signs were made as a proposal for the swimming pool in Klaksvík, Faroe Islands.'],
         thumbnail: duck_thumbnail,
         images: [
             duck_poster,
@@ -112,7 +115,7 @@ const gitPortfolioItems = () => {
         title: 'FOX',
         subTitle: 'Video and Animation',
         description: 'Graphic design og Illustration',
-        text: 'This was a self initated project to learn more about animation in Adobe After Effects.',
+        text: ['This was a self initated project to learn more about animation in Adobe After Effects.'],
         thumbnail: foxcar_thumbnail,
         videos: [
             foxcar_video,
@@ -130,7 +133,7 @@ const gitPortfolioItems = () => {
         title: 'Game Jam',
         subTitle: 'cover and Characters',
         description: 'Graphic design og Illustration',
-        text:  "Game Jams are a team-based collaborative events focusing on creating video games within 48 hours, often during a single weekend. This video game that we made is called 'We are Moving'. The game, its cover and characters, are based on the old children game, 'Alle mine kyllinger små'.",
+        text:  ["Game Jams are a team-based collaborative events focusing on creating video games within 48 hours, often during a single weekend. This video game that we made is called 'We are Moving'. The game, its cover and characters, are based on the old children game, 'Alle mine kyllinger små'."],
         thumbnail: gamejam_thumbnail,
         images: [
             gamejam_game_cover,
@@ -146,8 +149,8 @@ const gitPortfolioItems = () => {
         id: 7,
         title: 'UX',
         subTitle: 'Ui, UX and XD prototype',
-        description: 'This is the first portfolio item',
-        text: 'This is a design mockup for a mobile application that helps users with finding jobs.',
+        description: '',
+        text: ['This is a design mockup for a mobile application that helps users with finding jobs.'],
         WorkWith: 'Collaborates with: Ida',
         thumbnail: ux_2022_thumbnail,
         images: [
@@ -163,7 +166,7 @@ const gitPortfolioItems = () => {
         title: 'Aquarius',
         subTitle: 'Poster',
         description: 'Graphic design Illustration',
-        text: 'This was a self initiated project inspired by the children cartoon Puffin Rock.',
+        text: ['This was a self initiated project inspired by the children cartoon Puffin Rock.'],
         thumbnail: vandman_thumbnail,
         images: [
             vandman_poster,

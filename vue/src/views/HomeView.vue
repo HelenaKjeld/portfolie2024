@@ -158,6 +158,7 @@
     z-index: 4;
     padding-top: 2em;
     padding-left: 3ex;
+    height: 100%;
 }
 
 
