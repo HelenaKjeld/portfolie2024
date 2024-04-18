@@ -95,7 +95,7 @@ const gitPortfolioItems = () => {
         id: 4,
         title: 'DUCK',
         subTitle: 'Poster and Signs',
-        description: '',
+        description: 'Graphic design',
         text: 'This is poster and signs were made as a proposal for a swimming i Klaskvík',
         thumbnail: duck_thumbnail,
         images: [
@@ -110,9 +110,9 @@ const gitPortfolioItems = () => {
     {
         id: 5,
         title: 'FOX',
-        subTitle: 'her kemur okkurt um fox car',
-        description: 'This is the first portfolio item',
-        text: 'okkurt um fox',
+        subTitle: 'Video',
+        description: 'Graphic design og Illustration',
+        text: 'this was a self initated project to learn more about After Effects and animation in Adobe.',
         thumbnail: foxcar_thumbnail,
         videos: [
             foxcar_video,
@@ -128,9 +128,9 @@ const gitPortfolioItems = () => {
     {
         id: 6,
         title: 'Game Jam',
-        subTitle: 'her kemur okkurt um Game Jam',
-        description: 'This is the first portfolio item',
-        text: 'okkurt um Game Jam',
+        subTitle: 'cover and Characters',
+        description: 'Graphic design og Illustration',
+        text: 'Game Jam or Global Game Jam is an event where you and a few people make a game druring one weekend. This video game that we made, is called We are moving. The game, cover and characters are based on the old childrens game - Alle mine kyllinger små -.',
         thumbnail: gamejam_thumbnail,
         images: [
             gamejam_game_cover,
@@ -162,8 +162,8 @@ const gitPortfolioItems = () => {
         id: 8,
         title: 'Aquarius',
         subTitle: 'her kemur okkurt Aquarius',
-        description: 'This is the first portfolio item',
-        text: 'okkurt um UX',
+        description: 'this was a self initated project',
+        text: 'okkurt um Aquarius',
         thumbnail: vandman_thumbnail,
         images: [
             vandman_poster,
