@@ -46,11 +46,11 @@ const gitPortfolioItems = () => {
     const portfolioItems = ref([
     {
         id: 1,
-        title: 'BBQ',
-        subTitle: 'LongHorn BBQ Projekt',
-        description: 'UX, UI og web: Prepared a prototype of a website',
-        text: 'For our final project in the first semester, our case was the LongHorn BBQ competition Denmark 2022. We made a wed prototype with several pages and two different logos.',
-        WorkWith: 'Worked with: Alberte,Anne-sofie og Dream',
+        title: 'Longhorn BBQ Project',
+        subTitle: 'UX, UI og web',
+        description: 'UI/UX, and Web: From Design to Execution',
+        text: 'For our final project in the first semester, we had to design a website using Adobe XD and implement it using HTML, CSS and JavaScript. Our case was the LongHorn BBQ competition 2022 held in Denmark. We made a web prototype that featured several pages and we also designed two different logos.',
+        WorkWith: 'Collaborators: Alberte, Anne-sofie and Dream',
         thumbnail: BBQ_thumbnail,
         images: [
             BBQ_computer_mockup,
@@ -66,9 +66,9 @@ const gitPortfolioItems = () => {
     {
         id: 2,
         title: 'Gjesing Poster',
-        subTitle: '',
+        subTitle: 'Poster',
         description: 'Graphic design ',
-        text: 'This poster is for Gjesing area in Esbjerg.The poster shows that Esbjerg has a lot of green areas withe wild animals such as deer. And that Esbjerg isnt just a port.',
+        text: 'This poster is for Gjesing area in Esbjerg. The poster shows that Esbjerg has a lot of green areas with wild animals such as deer. And that Esbjerg is not just a port.',
         thumbnail: Gjesing_thumbnail,
         images: [
              Gjesing_poster 
@@ -82,7 +82,7 @@ const gitPortfolioItems = () => {
         title: 'Rhino',
         subTitle: 'Poster',
         description: 'Graphic design',
-        text: 'This rhino poster was made a response for WWF posters that are quite graphic. And most people dont want look at them. This poster was made more family friendly, but the messages still gets across.',
+        text: "This rhino poster was made as a response for the WWF posters that were quite graphic. Most people don't want to look at them. This poster was made to be more family friendly while still getting its message across.",
         thumbnail: csvpa_thumbnail,
         images: [ 
             csvpa_poster 
@@ -96,7 +96,7 @@ const gitPortfolioItems = () => {
         title: 'DUCK',
         subTitle: 'Poster and Signs',
         description: 'Graphic design',
-        text: 'This is poster and signs were made as a proposal for a swimming i Klaskvík',
+        text: 'The poster and signs were made as a proposal for the swimming pool in Klaksvík, Faroe Islands.',
         thumbnail: duck_thumbnail,
         images: [
             duck_poster,
@@ -110,9 +110,9 @@ const gitPortfolioItems = () => {
     {
         id: 5,
         title: 'FOX',
-        subTitle: 'Video',
+        subTitle: 'Video and Animation',
         description: 'Graphic design og Illustration',
-        text: 'this was a self initated project to learn more about After Effects and animation in Adobe.',
+        text: 'This was a self initated project to learn more about animation in Adobe After Effects.',
         thumbnail: foxcar_thumbnail,
         videos: [
             foxcar_video,
@@ -130,7 +130,7 @@ const gitPortfolioItems = () => {
         title: 'Game Jam',
         subTitle: 'cover and Characters',
         description: 'Graphic design og Illustration',
-        text: 'Game Jam or Global Game Jam is an event where you and a few people make a game druring one weekend. This video game that we made, is called We are moving. The game, cover and characters are based on the old childrens game - Alle mine kyllinger små -.',
+        text:  "Game Jams are a team-based collaborative events focusing on creating video games within 48 hours, often during a single weekend. This video game that we made is called 'We are Moving'. The game, its cover and characters, are based on the old children game, 'Alle mine kyllinger små'.",
         thumbnail: gamejam_thumbnail,
         images: [
             gamejam_game_cover,
@@ -145,10 +145,10 @@ const gitPortfolioItems = () => {
     {
         id: 7,
         title: 'UX',
-        subTitle: 'her kemur okkurt um UX',
+        subTitle: 'Ui, UX and XD prototype',
         description: 'This is the first portfolio item',
-        text: 'okkurt um UX',
-        WorkWith: 'Worked with: Ida',
+        text: 'This is a design mockup for a mobile application that helps users with finding jobs.',
+        WorkWith: 'Collaborates with: Ida',
         thumbnail: ux_2022_thumbnail,
         images: [
             ux_2022_mockup,
@@ -161,9 +161,9 @@ const gitPortfolioItems = () => {
     {
         id: 8,
         title: 'Aquarius',
-        subTitle: 'her kemur okkurt Aquarius',
-        description: 'this was a self initated project',
-        text: 'okkurt um Aquarius',
+        subTitle: 'Poster',
+        description: 'Graphic design Illustration',
+        text: 'This was a self initiated project inspired by the children cartoon Puffin Rock.',
         thumbnail: vandman_thumbnail,
         images: [
             vandman_poster,
