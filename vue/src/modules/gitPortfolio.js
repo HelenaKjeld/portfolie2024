@@ -10,6 +10,8 @@ import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.jpg'
 import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.jpg'
 import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.jpg'
 import fish_box_plaskit from '@/assets/fishes_box_plaskit.jpg'
+import vandman_thumbnail from '@/assets/vandman_thumbnail.jpg'
+
 
 // images for ProjectView
 
@@ -34,6 +36,8 @@ import gamejam_fox from '@/assets/game_jam_2022_fox_chiken/fox.png'
 
 import ux_2022_mockup from '@/assets/UX_2022/ux_sem1_phone_muckup.png'
 import ux_2022_all_pages from '@/assets/UX_2022/all_of_the_screens.png'
+
+import vandman_poster from '@/assets/poster_vandman_Small.png'
 
 
 
@@ -91,7 +95,7 @@ const gitPortfolioItems = () => {
         id: 4,
         title: 'DUCK',
         subTitle: 'Poster and Signs',
-        description: 'This is the 3 portfolio item',
+        description: 'This is poster and signs ver made as a ',
         text: 'okkurt um CSVPA poster',
         thumbnail: duck_thumbnail,
         images: [
@@ -156,16 +160,17 @@ const gitPortfolioItems = () => {
     }, 
     {
         id: 8,
-        title: 'Fish Box',
-        subTitle: 'her kemur okkurt Fish Box',
+        title: 'Aquarius',
+        subTitle: 'her kemur okkurt Aquarius',
         description: 'This is the first portfolio item',
         text: 'okkurt um UX',
-        thumbnail: fish_box_plaskit,
+        thumbnail: vandman_thumbnail,
         images: [
-            fish_box_plaskit,
+            vandman_poster,
         ],
         category: [
-            'UX',
+            'Graphic design',
+            'Illustration'
         ]
     }, 
     ])
