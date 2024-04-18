@@ -9,7 +9,6 @@ import duck_thumbnail from '@/assets/Duck/duck_welcome_poster_ thumbnail.jpg'
 import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.jpg'
 import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.jpg'
 import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.jpg'
-import fish_box_plaskit from '@/assets/fishes_box_plaskit.jpg'
 import vandman_thumbnail from '@/assets/vandman_thumbnail.jpg'
 
 
