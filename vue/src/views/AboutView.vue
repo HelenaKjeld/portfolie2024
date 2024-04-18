@@ -7,16 +7,11 @@
                 <h1>Helena Kjeld</h1>
                 <h3>Graphic designer, Illustrator <br />
                     & Multimediedesigner</h3>
-            <p>jdjoqwdi qowdiw qliff oweif  oiejf  
-                oiwef lkjeshfæo skæfj
-                w peifu wkefh  owief ijfe iwefj  
-                kjf dkjfls dlfwi kif s,jf f wkefj efkjew 
-                dflknf
-                
-                ,jsnfkejb fgækwejr wækrg gtækjwr
-                ekæjger 
-                geækjweg gwkurg gwækjrg mgelk
-                efhæwieu wfei wf wæiub
+            <p>Welcome to my website! My name is Helena and I am an aspiring Multimedia Designer with background in Graphic Design and Illustration. 
+              My passion is to create art with stories. I am inspired by simplistic and colorful designs. 
+              I get my inspiration from food packaging designs, posters, movies, etc. 
+              You are welcome to checkout my projects and have a look and hopefully something inspires you. 
+              You are welcome to contact me with Email or LinkedIn. 
                 </p>
         </div>
         <div class="contact">
