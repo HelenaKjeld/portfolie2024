@@ -9,11 +9,11 @@
                 </div>
                 <div class="links_footer">
                         <img src="/src/assets/icons/linkin_red.png" alt="">
-                        <a href="https://www.linkedin.com/in/helena-kjeld/" target="_blank" > linkedin</a> 
+                        <a href="https://www.linkedin.com/in/helena-kjeld/" target="_blank" > Linkedin</a> 
                 </div>
                 <div class="links_footer">
                         <img src="/src/assets/icons/instagram_red.png" alt=""> 
-                        <a href="https://www.instagram.com/provo_art/?hl=da" target="_blank" > instagram</a> 
+                        <a href="https://www.instagram.com/provo_art/?hl=da" target="_blank" > Instagram</a> 
                 </div>
         </div>
     
@@ -70,14 +70,18 @@ a{
     footer{
     display: flex;
     flex-direction: column-reverse;
+    
+  
   
 }
     .footerlinks{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    align-items: flex-start;
     gap: 10px;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-left: 32%;
+    gap: 18px;
     }
 }
 

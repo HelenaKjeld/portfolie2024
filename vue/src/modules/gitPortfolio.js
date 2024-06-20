@@ -10,6 +10,7 @@ import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.jpg'
 import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.jpg'
 import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.jpg'
 import vandman_thumbnail from '@/assets/vandman_thumbnail.jpg'
+import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.png'
 
 
 // images for ProjectView
@@ -35,6 +36,11 @@ import gamejam_fox from '@/assets/game_jam_2022_fox_chiken/fox.png'
 
 import ux_2022_mockup from '@/assets/UX_2022/ux_sem1_phone_muckup.png'
 import ux_2022_all_pages from '@/assets/UX_2022/all_of_the_screens.png'
+
+import UX_2024_img_1 from '@/assets/UX_2024/UX_2024_img_1.png'
+import UX_2024_img_2 from '@/assets/UX_2024/UX_2024_img_2.png'
+import UX_2024_img_3 from '@/assets/UX_2024/UX_2024_img_3.png'
+import UX_2024_img_4 from '@/assets/UX_2024/UX_2024_img_4.png'
 
 import vandman_poster from '@/assets/poster_vandman_Small.png'
 
@@ -146,7 +152,7 @@ const gitPortfolioItems = () => {
     }, 
     {
         id: 7,
-        title: 'UX',
+        title: 'UX 2022',
         subTitle: 'Ui, UX and XD prototype',
         description: '',
         text: ['This is a design mockup for a mobile application that helps users with finding jobs.'],
@@ -159,9 +165,26 @@ const gitPortfolioItems = () => {
         category: [
             'UX',
         ]
-    }, 
+    },
     {
         id: 8,
+        title: 'UX 2024',
+        subTitle: '',
+        description: '',
+        text: [''],
+        thumbnail: UX_2024_thomnail,
+        images: [
+            UX_2024_img_1,
+            UX_2024_img_2,
+            UX_2024_img_3,
+            UX_2024_img_4
+        ],
+        category: [
+           'UX'
+        ]
+    }, 
+    {
+        id: 9,
         title: 'Aquarius',
         subTitle: 'Poster',
         description: 'Graphic design Illustration',
@@ -175,6 +198,7 @@ const gitPortfolioItems = () => {
             'Illustration'
         ]
     }, 
+ 
     ])
 
 
