@@ -169,9 +169,13 @@ const gitPortfolioItems = () => {
     {
         id: 8,
         title: 'UX 2024',
-        subTitle: '',
-        description: '',
-        text: [''],
+        subTitle: 'UI/UX og XD Prototype',
+        description: 'Self-Service Kiosk App',
+        text: [
+            'As a part of the EASV Multimedia Design education, I, together with a group, produced a UI/UX mockup of a self-service kiosk app, for the hardware store Harald Nyborg',
+            'This concept is an attempt at assisting customers finding the products they are looking for, as well as their locations in the stores.'
+            ],
+        WorkWith: 'Collaborators: Freia, Dörfler, Helene, Sjørslev og Ronja, Kirchheiner',
         thumbnail: UX_2024_thomnail,
         images: [
             UX_2024_img_1,
