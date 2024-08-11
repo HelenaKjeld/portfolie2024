@@ -5,7 +5,7 @@
         <div class="footerlinks">
                 <div class="links_footer"> 
                         <img src="/src/assets/icons/email_red.png" alt="">
-                        <a href="mailto:hk0209v8@hotmail.com"> hk0209v8@hotmail.com </a> 
+                        <a href="mailto:helenakjeld@gmail.com"> helenakjeld@gmail.com </a> 
                 </div>
                 <div class="links_footer">
                         <img src="/src/assets/icons/linkin_red.png" alt="">

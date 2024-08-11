@@ -17,7 +17,7 @@
         <div class="contact">
             <h3>Contact</h3>
             <a href="https://www.linkedin.com/in/helena-kjeld/" target="_blank"> <p>linkedin.com/in/helena-kjeld</p></a>
-            <a href="mailto:hk0209v8@hotmail.com" ><p> hk0209v8@hotmail.com</p></a>
+            <a href="mailto:helenakjeld@gmail.com" ><p> helenakjeld@gmail.com</p></a>
             <a href="https://indd.adobe.com/view/c17246aa-4b45-4402-8a4e-99122b5ca0dd" target="_blank"><p>CV: link til cv/ PDF</p></a>
       </div>
 </div>
