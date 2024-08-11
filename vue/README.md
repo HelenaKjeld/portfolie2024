@@ -27,3 +27,20 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### firebase deploy
+
+1. find this folder 
+C:\Users\hk020\OneDrive\Skrivebord\skúla dk 2022\SEMSTER 2\portfolie\portfolie2024\vue
+
+2. open the terminal with cmd
+
+3. run command
+3.a
+```sh
+npm run build
+```
+3.b
+```sh
+firebase deploy
+```
