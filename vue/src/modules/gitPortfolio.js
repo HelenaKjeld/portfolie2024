@@ -2,47 +2,47 @@ import { ref } from 'vue'
 
 // thumbnail  img
 
-import BBQ_thumbnail from '@/assets/BBQ/BBQ_thumbnail.jpg'
-import Gjesing_thumbnail from '@/assets/cc_poster_ gjesing/gjesing_poster_thumbnail.jpg'
-import csvpa_thumbnail from '@/assets/csvpa/rhino_poster_thumbnail.jpg'
-import duck_thumbnail from '@/assets/Duck/duck_welcome_poster_ thumbnail.jpg'
-import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.jpg'
-import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.jpg'
-import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.jpg'
-import vandman_thumbnail from '@/assets/vandman_thumbnail.jpg'
-import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.png'
+import BBQ_thumbnail from '@/assets/BBQ/BBQ_thumbnail.webp'
+import Gjesing_thumbnail from '@/assets/cc_poster_ gjesing/gjesing_poster_thumbnail.webp'
+import csvpa_thumbnail from '@/assets/csvpa/rhino_poster_thumbnail.webp'
+import duck_thumbnail from '@/assets/Duck/duck_welcome_poster_ thumbnail.webp'
+import foxcar_thumbnail from '@/assets/fox_car/fox_car_thumbnail.webp'
+import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_gamecover_thumbnail.webp'
+import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.webp'
+import vandman_thumbnail from '@/assets/vandman_thumbnail.webp'
+import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.webp'
 
 
 // images for ProjectView
 
-import BBQ_computer_mockup from '@/assets/BBQ/mockup_computer_og_mobil_Small.png'
-import BBQ_main_logo from '@/assets/BBQ/a_LOGO_WHITE_TEST_black_backgrund_Small.png'
-import BBQ_2st_logo from '@/assets/BBQ/K_logo_black_background.png'
+import BBQ_computer_mockup from '@/assets/BBQ/mockup_computer_og_mobil_Small.webp'
+import BBQ_main_logo from '@/assets/BBQ/a_LOGO_WHITE_TEST_black_backgrund_Small.webp'
+import BBQ_2st_logo from '@/assets/BBQ/K_logo_black_background.webp'
 
-import Gjesing_poster from '@/assets/cc_poster_ gjesing/A1_poster_gjesing.png'
+import Gjesing_poster from '@/assets/cc_poster_ gjesing/A1_poster_gjesing.webp'
 
-import csvpa_poster from '@/assets/csvpa/rhino_poster.jpg'
+import csvpa_poster from '@/assets/csvpa/rhino_poster.webp'
 
-import duck_poster from '@/assets/Duck/VÆLKOMMIN plakat final.jpg'
-import duck_4images from '@/assets/Duck/4 ducks.png'
-import duck_posters_on_wall from '@/assets/Duck/posters_on_a_wall.png'
+import duck_poster from '@/assets/Duck/VÆLKOMMIN plakat final.webp'
+import duck_4images from '@/assets/Duck/4 ducks.webp'
+import duck_posters_on_wall from '@/assets/Duck/posters_on_a_wall.webp'
 
-import foxcar_image from '@/assets/fox_car/fox_car_natur_background_thumbnail.png'
+import foxcar_image from '@/assets/fox_car/fox_car_natur_background_thumbnail.webp'
 import foxcar_video from '@/assets/fox_car/fox car.mp4'
 
-import gamejam_game_cover from '@/assets/game_jam_2022_fox_chiken/WE_ARE_MOVING_with_fox_Small.png'
-import gamejam_chikens from '@/assets/game_jam_2022_fox_chiken/chiken_and_cik.png'
-import gamejam_fox from '@/assets/game_jam_2022_fox_chiken/fox.png'
+import gamejam_game_cover from '@/assets/game_jam_2022_fox_chiken/WE_ARE_MOVING_with_fox_Small.webp'
+import gamejam_chikens from '@/assets/game_jam_2022_fox_chiken/chiken_and_cik.webp'
+import gamejam_fox from '@/assets/game_jam_2022_fox_chiken/fox.webp'
 
-import ux_2022_mockup from '@/assets/UX_2022/ux_sem1_phone_muckup.png'
-import ux_2022_all_pages from '@/assets/UX_2022/all_of_the_screens.png'
+import ux_2022_mockup from '@/assets/UX_2022/ux_sem1_phone_muckup.webp'
+import ux_2022_all_pages from '@/assets/UX_2022/all_of_the_screens.webp'
 
-import UX_2024_img_1 from '@/assets/UX_2024/UX_2024_img_1.png'
-import UX_2024_img_2 from '@/assets/UX_2024/UX_2024_img_2.png'
-import UX_2024_img_3 from '@/assets/UX_2024/UX_2024_img_3.png'
-import UX_2024_img_4 from '@/assets/UX_2024/UX_2024_img_4.png'
+import UX_2024_img_1 from '@/assets/UX_2024/UX_2024_img_1.webp'
+import UX_2024_img_2 from '@/assets/UX_2024/UX_2024_img_2.webp'
+import UX_2024_img_3 from '@/assets/UX_2024/UX_2024_img_3.webp'
+import UX_2024_img_4 from '@/assets/UX_2024/UX_2024_img_4.webp'
 
-import vandman_poster from '@/assets/poster_vandman_Small.png'
+import vandman_poster from '@/assets/poster_vandman_Small.webp'
 
 
 
