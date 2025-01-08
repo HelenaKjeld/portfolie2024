@@ -15,6 +15,10 @@
                         <img src="/src/assets/icons/instagram_red.png" alt=""> 
                         <a href="https://www.instagram.com/provo_art/?hl=da" target="_blank" > Instagram</a> 
                 </div>
+                <div class="links_footer">
+                        <img src="/src/assets/icons/github_red.png" alt=""> 
+                        <a href="https://github.com/HelenaKjeld" target="_blank" > GitHub</a> 
+                </div>
         </div>
     
     </footer>
