@@ -1,7 +1,7 @@
 <template>
 
 <div class="about_me">
-      <div class="image_of_me"><img class="MeImg" src="/src/assets/round.png" alt=""></div>
+      <div class="image_of_me"><img class="MeImg" src="/src/assets/round.webp" alt=""></div>
         
       <div class="text_about_me">
                 <h1>Helena Kjeld</h1>

@@ -48,6 +48,7 @@ footer{
     justify-content: space-evenly;
     flex: 1;
     margin-top: 50px;
+    padding-right: 15px;
 }
 
 a{
