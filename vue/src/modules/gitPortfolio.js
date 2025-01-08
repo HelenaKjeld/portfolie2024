@@ -11,6 +11,7 @@ import gamejam_thumbnail from '@/assets/game_jam_2022_fox_chiken/we_are_moving_g
 import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.webp'
 import vandman_thumbnail from '@/assets/vandman_thumbnail.webp'
 import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.webp'
+import fantasy_festival_thomnail from '@/assets/Fantasy festival/fantasy_festival_thumbnail.webp'
 
 
 // images for ProjectView
@@ -43,6 +44,12 @@ import UX_2024_img_3 from '@/assets/UX_2024/UX_2024_img_3.webp'
 import UX_2024_img_4 from '@/assets/UX_2024/UX_2024_img_4.webp'
 
 import vandman_poster from '@/assets/poster_vandman_Small.webp'
+
+import fantasy_pc_phone from '@/assets/Fantasy festival/ps_and_phone_mockup.webp'
+import fantasy_folder from '@/assets/Fantasy festival/the_folder_laded_out.webp'
+import fantasy_primer_pro from '@/assets/Fantasy festival/primer_pro.webp'
+import fantasy_facese from '@/assets/Fantasy festival/facese.webp'
+
 
 
 
@@ -202,6 +209,26 @@ const gitPortfolioItems = () => {
             'Illustration'
         ]
     }, 
+
+    {
+        id: 10,
+        title: 'Fantasy Festival 2024',
+        subTitle: 'UX, UI, web, Video and Animation',
+        description: '',
+        text: ['This is my 2 semster project, that was making made in collaboration with the Fantasy festival with the focus on the quest part of the festival. They wanted a website that shows that they have a day quest, which is for more family oriented and an evening quest which is more grown-up oriented. they also wanted a way for the quest goers to know that they were on the right path. As such we made a folder and a map made out of wood where they would get a new piece of the map after the quest, scorers solved puzzles. if we were also asked to make a trailer for the festival quest such I used the characters from the quest which they provided and made an animated trailer that to that taunts the viewer into doing the quest'],
+        thumbnail: fantasy_festival_thomnail,
+        images: [
+            fantasy_pc_phone, fantasy_folder, fantasy_primer_pro, fantasy_facese 
+        ],
+        category: [
+            'Graphic design',
+            'Illustration',
+            'Web',
+            
+        ]
+
+
+    }
  
     ])
 
