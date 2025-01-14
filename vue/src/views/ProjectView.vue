@@ -48,7 +48,7 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 
 .containerbbq{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 40px;
 }
 
@@ -85,17 +85,22 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 }
 
 .right{
-    display: flex;
+    /* display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    flex: 1;
+    flex: 1; */
+    display: flex;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 6%;
 }
 
 .right img{
     width: 30vw;
     /* height: 35vh; */
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }
 
 video{
@@ -116,10 +121,19 @@ video{
     width: 70vw;
     padding-bottom: 20px;
   }
+
+  .right{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
  
 .back{
     margin-top: 5px;
 }
+
+
+
+
 
 }
   </style>

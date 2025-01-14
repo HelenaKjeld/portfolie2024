@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 847.83 828.86">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e94869;
+      }
+
+      .cls-2 {
+        fill: #49001c;
+        stroke: #ff0a61;
+        stroke-miterlimit: 10;
+        stroke-width: 28px;
+      }
+    </style>
+  </defs>
+  <g id="Assets">
+    <g>
+      <rect class="cls-2" x="14" y="14" width="819.83" height="800.86" rx="147.24" ry="147.24"/>
+      <g>
+        <rect class="cls-1" x="230.81" y="249.35" width="78.45" height="362.93"/>
+        <path class="cls-1" d="M538.57,216.59v111.21h-47.9c-67.26,0-121.78,54.53-121.78,121.78v40.91c0,67.26,54.53,121.78,121.78,121.78h47.9s77.59-5.98,78.45-29.31V216.59h-78.45ZM538.57,547.62h-29.26c-36.69,0-66.43-29.74-66.43-66.43v-22.31c0-36.69,29.74-66.43,66.43-66.43h29.26v155.17Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

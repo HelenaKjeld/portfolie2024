@@ -50,6 +50,13 @@ import fantasy_folder from '@/assets/Fantasy_festival/the_folder_laded_out.webp'
 import fantasy_primer_pro from '@/assets/Fantasy_festival/primer_pro.webp'
 import fantasy_facese from '@/assets/Fantasy_festival/facese.webp'
 
+import III_phone from '@/assets/3D_Phone/phone.webp'
+import tomatos_IIID from '@/assets/3D_Phone/tomatos 3D.webp'
+import tomatos_IID from '@/assets/3D_Phone/tomatoss.webp'
+
+
+// images of tools used ProjectView
+
 
 
 
@@ -61,6 +68,7 @@ const gitPortfolioItems = () => {
         title: 'Longhorn BBQ Project',
         subTitle: 'UX, UI og web',
         description: 'UI/UX, and Web: From Design to Execution',
+        tools:'',
         text: [
             'For our final project in the first semester, we had to design a website using Adobe XD and implement it using HTML, CSS and JavaScript. Our case was the LongHorn BBQ competition 2022 held in Denmark. We made a web prototype that featured several pages and we also designed two different logos.', 
             'Repository: https://github.com/HelenaKjeld/BBQ-DM-2023'
@@ -232,9 +240,29 @@ const gitPortfolioItems = () => {
         ]
 
 
+    },
+
+    {
+        id: 11,
+        title: '3D in illustrator',
+        subTitle: 'Illustration',
+        description: '',
+        text: ['In this project I experimented with the #D aption in illustrator where I used the inflate function'
+        ],
+        thumbnail: III_phone ,
+        WorkWith: '',
+        images: [
+            III_phone, tomatos_IIID, tomatos_IID
+        ],
+        category: [
+            'Illustration'
+        ]
+
+
     }
+
  
-    ])
+    ].reverse())
 
 
     return { portfolioItems }
