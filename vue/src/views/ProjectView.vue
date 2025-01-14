@@ -77,6 +77,7 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     flex-direction:column;
     flex: 1;
     margin-left: 80px;
+    margin-right: 80px;
 }
 
 .work_with{
