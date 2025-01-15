@@ -19,6 +19,7 @@
           </div>
         <div class="right">
             <img v-for="image in specificPortfolioItem.images" :key="image"  :src="image" alt="">
+            <iframe width="560" height="315" v-for="youtube_video in specificPortfolioItem.youtube_videos" :src="`https://www.youtube.com/embed/${youtube_video}?si=Dxt2ndEtjYTv_5DU`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <video v-for="video in specificPortfolioItem.videos" controls autoplay muted loop :key="video" :src="video"></video>
         </div>
     </div>        

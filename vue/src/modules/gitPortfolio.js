@@ -224,13 +224,15 @@ const gitPortfolioItems = () => {
         subTitle: 'UX, UI, web, Video and Animation',
         description: '',
         text: ['This is my 2 semster project, that was making made in collaboration with the Fantasy festival with the focus on the quest part of the festival. They wanted a website that shows that they have a day quest, which is for more family oriented and an evening quest which is more grown-up oriented. they also wanted a way for the quest goers to know that they were on the right path. As such we made a folder and a map made out of wood where they would get a new piece of the map after the quest, scorers solved puzzles. if we were also asked to make a trailer for the festival quest such I used the characters from the quest which they provided and made an animated trailer that to that taunts the viewer into doing the quest',
-            'Repository: https://github.com/Sinyedu/Fantasy-Festival',
-            `Animated trailer: https://youtu.be/tAbEIZI9dZ8?si=vDrGh_hkWKyhH0oL`
+            'Repository: https://github.com/Sinyedu/Fantasy-Festival'
         ],
         thumbnail: fantasy_festival_thomnail,
         WorkWith: 'Collaborators: Simon, Benjamin and Ida',
         images: [
             fantasy_pc_phone, fantasy_folder, fantasy_primer_pro, fantasy_facese 
+        ],
+        youtube_videos: [
+            "tAbEIZI9dZ8",
         ],
         category: [
             'Graphic design',
