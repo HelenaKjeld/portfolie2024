@@ -57,7 +57,15 @@ import tomatos_IID from '@/assets/3D_Phone/tomatoss.webp'
 
 // images of tools used ProjectView
 
-
+import XD from '@/assets/icons/XD.svg'
+import after_effects from '@/assets/icons/After_Effects.svg'
+import illustrater from '@/assets/icons/illustrater.svg'
+import indesign from '@/assets/icons/InDesign.svg'
+import photoshop from '@/assets/icons/photoshop.svg'
+import premiere from '@/assets/icons/Premiere.svg'
+import visual_studio_code from '@/assets/icons/Visual_Studio_Code_1.35_icon.svg.png'
+import vue from '@/assets/icons/vue.svg'
+import wordpress from '@/assets/icons/wordpress.png'
 
 
 const gitPortfolioItems = () => {
@@ -186,6 +194,9 @@ const gitPortfolioItems = () => {
         title: 'UX 2024',
         subTitle: 'UI/UX og XD Prototype',
         description: 'Self-Service Kiosk App',
+        tools:[
+            XD
+        ],
         text: [
             'As a part of the EASV Multimedia Design education, I, together with a group, produced a UI/UX mockup of a self-service kiosk app, for the hardware store Harald Nyborg',
             'This concept is an attempt at assisting customers finding the products they are looking for, as well as their locations in the stores.'

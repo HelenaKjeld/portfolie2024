@@ -6,13 +6,19 @@
       </RouterLink>
 
     <div class="containerbbq">
+
+      <div class="top_tit">
+              <h1>{{ specificPortfolioItem.title }}</h1>
+            </div>
+      
         <div class="left">
             <div class="inder_left">
-                <h2>{{ specificPortfolioItem.title }}</h2>
+                
                 <h4>{{ specificPortfolioItem.subTitle }}</h4>
                 <p> {{ specificPortfolioItem.description }}</p>
                 <!-- <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p> -->
                 <p class="work_with"> {{ specificPortfolioItem.WorkWith }}</p>
+                <img class="img_tools" v-for="image in specificPortfolioItem.tools" :key="image"  :src="image" alt="">
             </div>
 
             <div class="inder_right">
@@ -76,6 +82,10 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     cursor: pointer;
 }
 
+.top.tit {
+  padding-left: 200px;
+}
+
 .left{
     /* width: 85%; */
     /* padding-left: 80px; */
@@ -89,6 +99,10 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 
 .inder_left{
   width: 800px;
+}
+
+.img_tools{
+  width: 50px;
 }
 
 .inder_right{
@@ -134,9 +148,15 @@ video{
   
   }
   .left{
+    flex-direction:column;
     margin-left: 20px;
     margin-right: 20px;
+    width: 600px;
   }
+  .inder_left{
+    width: 600px;
+  }
+  
   .right img{
     width: 70vw;
     padding-bottom: 20px;
