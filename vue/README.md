@@ -28,6 +28,11 @@ npm run dev
 npm run build
 ```
 
+### Hov to start Vue
+
+npm run dev
+
+
 ### firebase deploy
 
 1. find this folder 

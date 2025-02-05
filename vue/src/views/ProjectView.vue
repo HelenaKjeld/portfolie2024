@@ -7,16 +7,19 @@
 
     <div class="containerbbq">
         <div class="left">
-            
-            <div>
+            <div class="inder_left">
                 <h2>{{ specificPortfolioItem.title }}</h2>
                 <h4>{{ specificPortfolioItem.subTitle }}</h4>
                 <p> {{ specificPortfolioItem.description }}</p>
-                <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p>
+                <!-- <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p> -->
                 <p class="work_with"> {{ specificPortfolioItem.WorkWith }}</p>
-                
+            </div>
+
+            <div class="inder_right">
+              <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p>
             </div>
           </div>
+
         <div class="right">
             <img v-for="image in specificPortfolioItem.images" :key="image"  :src="image" alt="">
             <div class="youtobe_v">
@@ -77,10 +80,19 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     /* width: 85%; */
     /* padding-left: 80px; */
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
     flex: 1;
     margin-left: 80px;
     margin-right: 80px;
+    justify-content: space-evenly;
+}
+
+.inder_left{
+  width: 800px;
+}
+
+.inder_right{
+  width: 800px;
 }
 
 .work_with{
