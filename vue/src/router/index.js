@@ -23,7 +23,14 @@ const router = createRouter({
       name: 'project',
       component: ProjectView
     },
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({ left: 0, top: 0 })
+      }, 50)
+    })
+  },
 })
 
 export default router

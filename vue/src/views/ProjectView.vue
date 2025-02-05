@@ -125,11 +125,6 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 }
 
 .right{
-    /* display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    flex: 1; */
     display: flex;
     justify-items: center;
     display: grid;
@@ -138,13 +133,30 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 }
 
 .right img{
-    width: 30vw;
-    /* height: 35vh; */
+    width: 40vw;
     padding-bottom: 25px;
 }
 
 video{
   width: 30vw;
+}
+
+.youtobe_v {
+  position: relative;
+  display: block;
+  width: 90%; /* width of iframe wrapper */
+  height: 0;
+  margin: auto;
+  margin-right: -8%;
+  padding: 0% 0% 56.25%; /* 16:9 ratio */
+  overflow: hidden;
+}
+.youtobe_v iframe {
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .youtobe_v{
@@ -179,6 +191,10 @@ video{
   .right{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .youtobe_v{
+    margin-right: auto;
   }
  
 .back{
