@@ -82,9 +82,16 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     cursor: pointer;
 }
 
-.top.tit {
-  padding-left: 200px;
+.top_tit {
+  margin-left: 80px;
+  
 }
+
+.top_tit h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
 
 .left{
     /* width: 85%; */
@@ -95,6 +102,7 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     margin-left: 80px;
     margin-right: 80px;
     justify-content: space-evenly;
+    gap: 30px;
 }
 
 .inder_left{
@@ -103,6 +111,8 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 
 .img_tools{
   width: 50px;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 .inder_right{
@@ -151,11 +161,15 @@ video{
     flex-direction:column;
     margin-left: 20px;
     margin-right: 20px;
-    width: 600px;
   }
   .inder_left{
-    width: 600px;
+    width: 80%;
   }
+
+  .inder_right{
+    width: 80%;
+  }
+
   
   .right img{
     width: 70vw;

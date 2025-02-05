@@ -76,13 +76,15 @@ const gitPortfolioItems = () => {
         title: 'Longhorn BBQ Project',
         subTitle: 'UX, UI og web',
         description: 'UI/UX, and Web: From Design to Execution',
-        tools:'',
         text: [
             'For our final project in the first semester, we had to design a website using Adobe XD and implement it using HTML, CSS and JavaScript. Our case was the LongHorn BBQ competition 2022 held in Denmark. We made a web prototype that featured several pages and we also designed two different logos.', 
             'Repository: https://github.com/HelenaKjeld/BBQ-DM-2023'
         ],
         WorkWith: 'Collaborators: Alberte, Anne-sofie and Dream',
         thumbnail: BBQ_thumbnail,
+        tools:[
+            XD, illustrater, visual_studio_code
+        ],
         images: [
             BBQ_computer_mockup,
             BBQ_main_logo,
@@ -101,6 +103,9 @@ const gitPortfolioItems = () => {
         description: 'Graphic design ',
         text: ['This poster is for Gjesing area in Esbjerg. The poster shows that Esbjerg has a lot of green areas with wild animals such as deer. And that Esbjerg is not just a port.'],
         thumbnail: Gjesing_thumbnail,
+        tools:[
+            illustrater, indesign
+        ],
         images: [
              Gjesing_poster 
             ],
@@ -115,6 +120,9 @@ const gitPortfolioItems = () => {
         description: 'Graphic design',
         text: ["This rhino poster was made as a response for the WWF posters that were quite graphic. Most people don't want to look at them. This poster was made to be more family friendly while still getting its message across."],
         thumbnail: csvpa_thumbnail,
+        tools:[
+            photoshop, 
+        ],
         images: [ 
             csvpa_poster 
         ],
@@ -129,6 +137,9 @@ const gitPortfolioItems = () => {
         description: 'Graphic design',
         text: ['The poster and signs were made as a proposal for the swimming pool in Klaksvík, Faroe Islands.'],
         thumbnail: duck_thumbnail,
+        tools:[
+            illustrater, indesign, photoshop
+        ],
         images: [
             duck_poster,
             duck_4images,
@@ -145,6 +156,9 @@ const gitPortfolioItems = () => {
         description: 'Graphic design og Illustration',
         text: ['This was a self initated project to learn more about animation in Adobe After Effects.'],
         thumbnail: foxcar_thumbnail,
+        tools:[
+            illustrater, after_effects
+        ],
         videos: [
             foxcar_video,
         ],
@@ -160,9 +174,12 @@ const gitPortfolioItems = () => {
         id: 6,
         title: 'Game Jam',
         subTitle: 'cover and Characters',
-        description: 'Graphic design og Illustration',
+        description: 'Graphic design and Illustration',
         text:  ["Game Jams are a team-based collaborative events focusing on creating video games within 48 hours, often during a single weekend. This video game that we made is called 'We are Moving'. The game, its cover and characters, are based on the old children game, 'Alle mine kyllinger små'."],
         thumbnail: gamejam_thumbnail,
+        tools:[
+            illustrater, 
+        ],
         images: [
             gamejam_game_cover,
             gamejam_chikens,
@@ -181,6 +198,9 @@ const gitPortfolioItems = () => {
         text: ['This is a design mockup for a mobile application that helps users with finding jobs.'],
         WorkWith: 'Collaborates with: Ida',
         thumbnail: ux_2022_thumbnail,
+        tools:[
+            XD, photoshop
+        ],
         images: [
             ux_2022_mockup,
             ux_2022_all_pages,
@@ -192,7 +212,7 @@ const gitPortfolioItems = () => {
     {
         id: 8,
         title: 'UX 2024',
-        subTitle: 'UI/UX og XD Prototype',
+        subTitle: 'UI/UX and XD Prototype',
         description: 'Self-Service Kiosk App',
         tools:[
             XD
@@ -203,6 +223,9 @@ const gitPortfolioItems = () => {
             ],
         WorkWith: 'Collaborators: Freia, Dörfler, Helene, Sjørslev og Ronja, Kirchheiner',
         thumbnail: UX_2024_thomnail,
+        tools:[
+            XD, 
+        ],
         images: [
             UX_2024_img_1,
             UX_2024_img_2,
@@ -220,6 +243,9 @@ const gitPortfolioItems = () => {
         description: 'Graphic design Illustration',
         text: ['This was a self initiated project inspired by the children cartoon Puffin Rock.'],
         thumbnail: vandman_thumbnail,
+        tools:[
+            illustrater, 
+        ],
         images: [
             vandman_poster,
         ],
@@ -239,6 +265,9 @@ const gitPortfolioItems = () => {
         ],
         thumbnail: fantasy_festival_thomnail,
         WorkWith: 'Collaborators: Simon, Benjamin and Ida',
+        tools:[
+            illustrater, indesign, photoshop, XD, after_effects, visual_studio_code
+        ],
         images: [
             fantasy_pc_phone, fantasy_folder, fantasy_primer_pro, fantasy_facese 
         ],
@@ -264,6 +293,9 @@ const gitPortfolioItems = () => {
         ],
         thumbnail: III_phone ,
         WorkWith: '',
+        tools:[
+            illustrater, 
+        ],
         images: [
             III_phone, tomatos_IIID, tomatos_IID
         ],
