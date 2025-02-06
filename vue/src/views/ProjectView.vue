@@ -1,14 +1,18 @@
 <template>
-    <div class="project">
-      
-      <RouterLink to ="/" >
+
+<RouterLink to ="/" >
         <button  class="back">Back</button>
       </RouterLink>
 
+
+    <div class="project">
+     
+     
     <div class="containerbbq">
 
+
       <div class="top_tit">
-              <h1>{{ specificPortfolioItem.title }}</h1>
+              <h1 >{{ specificPortfolioItem.title }}</h1>
             </div>
       
         <div class="left">
@@ -35,7 +39,7 @@
         </div>
     </div>        
 
-
+    
     </div>
   </template>
 
@@ -56,7 +60,9 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
   
   <style scoped>
 
-
+.project{
+  animation: 1000ms ease-out 0ms 1 slideInFromLeft;
+}
 
 .containerbbq{
     display: flex;
@@ -114,6 +120,20 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
   margin-top: 10px;
   margin-right: 20px;
 }
+
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
 
 .inder_right{
   width: 800px;

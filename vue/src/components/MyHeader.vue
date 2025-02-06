@@ -2,7 +2,8 @@
        <header>
     <nav class="navbar">
             <RouterLink to ="/">PROJECTS</RouterLink>
-            <img class="logo" src="../assets/mítt_logo_Xsmall.png" alt="Logo">
+            <RouterLink to ="/"> <img class="logo" src="../assets/mítt_logo_Xsmall.png" alt="Logo"></RouterLink>
+           
             <RouterLink to ="/about">ABOUT</RouterLink>
     </nav>
     </header>
@@ -38,7 +39,7 @@ a{
 }
 
 .logo {
-    width: 50%; 
+
     max-width: 100px; 
     min-width: 50px; 
     height: auto; 

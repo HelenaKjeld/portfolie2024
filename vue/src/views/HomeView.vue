@@ -45,8 +45,8 @@
  
 <div class="topcontainer">
     
-        <button v-for="item in categories" :key="item.title"  
-        :class="[
+        <button  v-for="item in categories" :key="item.title"  
+        :class="[ 
             {selected: selectedCategory === item.category},
             {unselected: selectedCategory != item.category},
         ]" 
@@ -100,6 +100,7 @@
     border-width: 2px;
 }
 
+
 .selected{
     color: #e62721;
     background-color: #ffffff;
@@ -126,7 +127,23 @@
     font-size: medium;
     position: relative;
     overflow: hidden;
+
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
+
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(25%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+
 
 
 .box img{

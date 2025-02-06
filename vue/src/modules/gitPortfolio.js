@@ -266,7 +266,7 @@ const gitPortfolioItems = () => {
         thumbnail: fantasy_festival_thomnail,
         WorkWith: 'Collaborators: Simon, Benjamin and Ida',
         tools:[
-            illustrater, indesign, photoshop, XD, after_effects, visual_studio_code
+            illustrater, indesign, photoshop, XD, after_effects, visual_studio_code, premiere
         ],
         images: [
             fantasy_pc_phone, fantasy_folder, fantasy_primer_pro, fantasy_facese 

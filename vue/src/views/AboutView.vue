@@ -42,8 +42,23 @@
     gap: 20px;
     margin-right: 30px;
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+
+    animation: 1000ms ease-out 0ms 1 slideInFromLeft;
 }
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-20%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+
 
 .MeImg{
     width: 80%;
