@@ -179,6 +179,16 @@
 }
 
 
+@media screen and (max-width: 1024px) {
+  .boxesrow1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }   
+
+  .box{
+    height: 30vh;
+  }
+}
 
 @media screen and (max-width: 700px) {
     .topcontainer{
