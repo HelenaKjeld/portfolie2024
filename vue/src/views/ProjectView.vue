@@ -86,6 +86,9 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     top:120px;
     left:20px;
     cursor: pointer;
+
+    /* margin-left: -40px;
+    padding-left: 100px; */
 }
 
 .top_tit {
@@ -189,13 +192,26 @@ video{
     flex-direction: column;
   
   }
+
+
+
+  .top_tit {
+  margin-left: 40px;
+  
+  }
+
+  .top_tit h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
   .left{
     flex-direction:column;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
   }
   .inder_left{
-    width: 80%;
+    width: 85%;
   }
 
   .inder_right{
@@ -219,6 +235,8 @@ video{
  
 .back{
     margin-top: 5px;
+    /* margin-left: -50px;
+    padding-left: 80px; */
 }
 
 
