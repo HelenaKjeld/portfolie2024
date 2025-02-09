@@ -86,9 +86,21 @@ const gitPortfolioItems = () => {
             XD, illustrater, visual_studio_code
         ],
         images: [
-            BBQ_computer_mockup,
-            BBQ_main_logo,
-            BBQ_2st_logo,
+            {
+                imageUrl:  BBQ_computer_mockup,
+                width: 720,
+                height: 480,
+            },
+            {
+                imageUrl:  BBQ_main_logo,
+                width: 681,
+                height: 480,
+            },
+            {
+                imageUrl:  BBQ_2st_logo,
+                width: 2197,
+                height: 1869,
+            },
         ],
         category: [
             'Web',
@@ -107,7 +119,11 @@ const gitPortfolioItems = () => {
             illustrater, indesign
         ],
         images: [
-             Gjesing_poster 
+            {
+                imageUrl:  Gjesing_poster,
+                width: 3073,
+                height: 4350,
+            },
             ],
         category: [
             'Graphic design'
@@ -124,7 +140,11 @@ const gitPortfolioItems = () => {
             photoshop, 
         ],
         images: [ 
-            csvpa_poster 
+            {
+                imageUrl:  csvpa_poster,
+                width: 2480,
+                height: 3508,
+            },
         ],
         category: [
             'Graphic design'
@@ -141,9 +161,22 @@ const gitPortfolioItems = () => {
             illustrater, indesign, photoshop
         ],
         images: [
-            duck_poster,
-            duck_4images,
-            duck_posters_on_wall,
+            {
+                imageUrl:  duck_poster,
+                width: 842,
+                height: 1191,
+            },
+            {
+                imageUrl:  duck_4images,
+                width: 2362,
+                height: 2362,
+            },
+            {
+                imageUrl:  duck_posters_on_wall,
+                width: 4500,
+                height: 2909,
+            },
+            
         ],
         category: [
             'Graphic design'
@@ -163,7 +196,11 @@ const gitPortfolioItems = () => {
             foxcar_video,
         ],
         images: [
-            foxcar_image,
+            {
+                imageUrl:  foxcar_image,
+                width: 3508,
+                height: 2481,
+            },
         ],
         category: [
             'Graphic design',
@@ -181,9 +218,21 @@ const gitPortfolioItems = () => {
             illustrater, 
         ],
         images: [
-            gamejam_game_cover,
-            gamejam_chikens,
-            gamejam_fox,
+            {
+                imageUrl:  gamejam_game_cover,
+                width: 854,
+                height: 463,
+            },
+            {
+                imageUrl:  gamejam_chikens,
+                width: 1190,
+                height: 1193,
+            },
+            {
+                imageUrl:  gamejam_fox,
+                width: 1773,
+                height: 210,
+            },
         ],
         category: [
             'Graphic design',
@@ -202,8 +251,16 @@ const gitPortfolioItems = () => {
             XD, photoshop
         ],
         images: [
-            ux_2022_mockup,
-            ux_2022_all_pages,
+            {
+                imageUrl:  ux_2022_mockup,
+                width: 2600,
+                height: 2100,
+            },
+            {
+                imageUrl:  ux_2022_all_pages,
+                width: 4571,
+                height: 2197,
+            },
         ],
         category: [
             'UX',
@@ -227,10 +284,26 @@ const gitPortfolioItems = () => {
             XD, 
         ],
         images: [
-            UX_2024_img_1,
-            UX_2024_img_2,
-            UX_2024_img_3,
-            UX_2024_img_4
+            {
+                imageUrl:  UX_2024_img_1,
+                width: 2445,
+                height: 2327,
+            },
+            {
+                imageUrl:  UX_2024_img_2,
+                width: 2445,
+                height: 2114,
+            },
+            {
+                imageUrl:  UX_2024_img_3,
+                width: 2445,
+                height: 1831,
+            },
+            {
+                imageUrl:  UX_2024_img_4,
+                width: 2445,
+                height: 1831,
+            },
         ],
         category: [
            'UX'
@@ -247,7 +320,11 @@ const gitPortfolioItems = () => {
             illustrater, 
         ],
         images: [
-            vandman_poster,
+            {
+                imageUrl:  vandman_poster,
+                width: 480,
+                height: 679,
+            },
         ],
         category: [
             'Graphic design',
@@ -257,32 +334,54 @@ const gitPortfolioItems = () => {
 
     {
         id: 10,
-        title: 'Fantasy Festival 2024',
-        subTitle: 'UX, UI, web, Video and Animation',
-        description: '',
-        text: ['This is my 2 semster project, that was making made in collaboration with the Fantasy festival with the focus on the quest part of the festival. They wanted a website that shows that they have a day quest, which is for more family oriented and an evening quest which is more grown-up oriented. they also wanted a way for the quest goers to know that they were on the right path. As such we made a folder and a map made out of wood where they would get a new piece of the map after the quest, scorers solved puzzles. if we were also asked to make a trailer for the festival quest such I used the characters from the quest which they provided and made an animated trailer that to that taunts the viewer into doing the quest',
-            'Repository: https://github.com/Sinyedu/Fantasy-Festival'
+        title: "Fantasy Festival 2024",
+        subTitle: "UX, UI, web, Video and Animation",
+        description: "",
+        text: [
+          "This is my 2 semster project, that was making made in collaboration with the Fantasy festival with the focus on the quest part of the festival. They wanted a website that shows that they have a day quest, which is for more family oriented and an evening quest which is more grown-up oriented. they also wanted a way for the quest goers to know that they were on the right path. As such we made a folder and a map made out of wood where they would get a new piece of the map after the quest, scorers solved puzzles. if we were also asked to make a trailer for the festival quest such I used the characters from the quest which they provided and made an animated trailer that to that taunts the viewer into doing the quest",
+          "Repository: https://github.com/Sinyedu/Fantasy-Festival",
         ],
         thumbnail: fantasy_festival_thomnail,
-        WorkWith: 'Collaborators: Simon, Benjamin and Ida',
-        tools:[
-            illustrater, indesign, photoshop, XD, after_effects, visual_studio_code, premiere
+        WorkWith: "Collaborators: Simon, Benjamin and Ida",
+        tools: [
+          illustrater,
+          indesign,
+          photoshop,
+          XD,
+          after_effects,
+          visual_studio_code,
+          premiere,
         ],
         images: [
-            fantasy_pc_phone, fantasy_folder, fantasy_primer_pro, fantasy_facese 
+          {
+            imageUrl: fantasy_pc_phone,
+            width: 3268,
+            height: 1992,
+            alt: "Fantasy festival pc and phone mockup",
+          },
+          {
+            imageUrl: fantasy_folder,
+            width: 5185,
+            height: 2055,
+          },
+          {
+            imageUrl: fantasy_primer_pro,
+            width: 2500,
+            height: 1875,
+          },
+          { 
+            imageUrl: fantasy_facese ,
+            width: 997,
+            height: 657,
+        },
         ],
         youtube_videos: [
             "tAbEIZI9dZ8",
         ],
-        category: [
-            'Graphic design',
-            'Illustration',
-            'Web',
-
-        ]
-
-
+        category: ["Graphic design", "Illustration", "Web"],
     },
+
+
 
     {
         id: 11,
@@ -297,7 +396,22 @@ const gitPortfolioItems = () => {
             illustrater, 
         ],
         images: [
-            III_phone, tomatos_IIID, tomatos_IID
+            {
+                imageUrl:  III_phone,
+                width: 1772,
+                height: 1772,
+            },
+            {
+                imageUrl:  tomatos_IIID,
+                width: 1496,
+                height: 1731,
+            },
+            {
+                imageUrl:  tomatos_IID,
+                width: 1500,
+                height: 1735,
+            },
+
         ],
         category: [
             'Illustration'

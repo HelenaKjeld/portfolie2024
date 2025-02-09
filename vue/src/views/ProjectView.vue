@@ -1,60 +1,103 @@
 <template>
+  <RouterLink to="/">
+    <button class="back">Back</button>
+  </RouterLink>
 
-<RouterLink to ="/" >
-        <button  class="back">Back</button>
-      </RouterLink>
-
-
-    <div class="project">
-     
-     
+  <div class="project">
     <div class="containerbbq">
-
-
       <div class="top_tit">
-              <h1 >{{ specificPortfolioItem.title }}</h1>
-            </div>
-      
-        <div class="left">
-            <div class="inder_left">
-                
-                <h4>{{ specificPortfolioItem.subTitle }}</h4>
-                <p> {{ specificPortfolioItem.description }}</p>
-                <!-- <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p> -->
-                <p class="work_with"> {{ specificPortfolioItem.WorkWith }}</p>
-                <img class="img_tools" v-for="image in specificPortfolioItem.tools" :key="image"  :src="image" alt="">
-            </div>
+        <h1>{{ title }}</h1>
+      </div>
 
-            <div class="inder_right">
-              <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p>
-            </div>
-          </div>
-
-        <div class="right">
-            <img v-for="image in specificPortfolioItem.images" :key="image"  :src="image" alt="">
-            <div class="youtobe_v">
-              <iframe width="560" height="315" v-for="youtube_video in specificPortfolioItem.youtube_videos" :src="`https://www.youtube.com/embed/${youtube_video}?si=Dxt2ndEtjYTv_5DU`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <video v-for="video in specificPortfolioItem.videos" controls autoplay muted loop :key="video" :src="video"></video>
+      <div class="left">
+        <div class="inder_left">
+          <h4>{{ subTitle }}</h4>
+          <p>{{ description }}</p>
+          <!-- <p v-for="text in specificPortfolioItem.text" :key="text"> {{ text }}</p> -->
+          <p class="work_with">{{ WorkWith }}</p>
+          <img
+            class="img_tools"
+            v-for="image in tools"
+            :key="image"
+            :src="image"
+            alt=""
+          />
         </div>
-    </div>        
 
-    
+        <div class="inder_right">
+          <p v-for="text in text" :key="text">
+            {{ text }}
+          </p>
+        </div>
+      </div>
+
+      <div :id="galleryID" class="right">
+        <a
+          v-for="(image, key) in imagesData"
+          :key="key"
+          :href="image.imageUrl"
+          :data-pswp-width="image.width"
+          :data-pswp-height="image.height"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img :src="image.imageUrl"  />
+        </a>
+        <div class="youtobe_v" v-for="youtube_video in youtube_videos">
+          <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${youtube_video}?si=Dxt2ndEtjYTv_5DU`" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <video v-for="video in videos" controls autoplay muted loop :key="video" :src="video"></video>
+      </div>
     </div>
-  </template>
+  </div>
+</template>
 
-<script setup>
-import {ref} from 'vue'
-import { useRoute } from 'vue-router'
-import gitPortfolio from '@/modules/gitPortfolio'
-const {portfolioItems} = gitPortfolio()
-const route = useRoute()
-const id = ref(route.params.id)
+<script>
+import { ref } from "vue";
+import { useRoute } from "vue-router";
+import gitPortfolio from "@/modules/gitPortfolio";
+import PhotoSwipeLightbox from "photoswipe/lightbox";
+import "photoswipe/style.css";
 
-
-const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.value)
-
-
+export default {
+  name: "ProjectView",
+  setup(props) {
+    const { portfolioItems } = gitPortfolio();
+    const route = useRoute();
+    const id = ref(route.params.id);
+    const specificPortfolioItem = portfolioItems.value.find((item) => item.id == id.value);
+    return {
+      title: specificPortfolioItem.title,
+      subTitle: specificPortfolioItem.subTitle,
+      description: specificPortfolioItem.description,
+      specificPortfolioItem: specificPortfolioItem.specificPortfolioItem,
+      WorkWith: specificPortfolioItem.WorkWith,
+      tools: specificPortfolioItem.tools,
+      imagesData: specificPortfolioItem.images,
+      text: specificPortfolioItem.text,
+      galleryID: "galleryID",
+      videos: specificPortfolioItem.videos,
+      youtube_videos: specificPortfolioItem.youtube_videos,
+    };
+  },
+  mounted() {
+    if (!this.lightbox) {
+      this.lightbox = new PhotoSwipeLightbox({
+        gallery: "#galleryID",
+        children: "a",
+        pswpModule: () => import("photoswipe"),
+      });
+      this.lightbox.init();
+    }
+  },
+  unmounted() {
+    if (this.lightbox) {
+      this.lightbox.destroy();
+      this.lightbox = null;
+    }
+  },
+  methods: {},
+};
 
 </script>
   
@@ -138,6 +181,7 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
 }
 
 
+
 .inder_right{
   width: 800px;
 }
@@ -154,6 +198,8 @@ const specificPortfolioItem = portfolioItems.value.find(item => item.id == id.va
     grid-template-columns: repeat(2, 1fr);
     margin-top: 6%;
 }
+
+
 
 .right img{
     width: 40vw;
