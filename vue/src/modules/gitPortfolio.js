@@ -2,6 +2,7 @@ import { ref } from 'vue'
 
 // thumbnail  img
 
+import puffing_thumbnail from '@/assets/puffing_posters/puffing_thumbnail.webp'
 import BBQ_thumbnail from '@/assets/BBQ/BBQ_thumbnail.webp'
 import Gjesing_thumbnail from '@/assets/cc_poster_ gjesing/gjesing_poster_thumbnail.webp'
 import csvpa_thumbnail from '@/assets/csvpa/rhino_poster_thumbnail.webp'
@@ -14,7 +15,15 @@ import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.webp'
 import fantasy_festival_thomnail from '@/assets/Fantasy_festival/fantasy_festival_thumbnail.webp'
 
 
+
 // images for ProjectView
+
+import hann_puffing from '@/assets/puffing_posters/Hann_puffing.webp'
+import hon_puffing from '@/assets/puffing_posters/Hon_puffing.webp'
+import hann_sheep from '@/assets/puffing_posters/Hann_sheep.webp'
+import hon_sheep from '@/assets/puffing_posters/Hon_sheep.webp'
+import the_dancing_ring from '@/assets/puffing_posters/the_dancing_ring.webp'
+import the_couple from '@/assets/puffing_posters/the_couple.webp'
 
 import BBQ_computer_mockup from '@/assets/BBQ/mockup_computer_og_mobil_Small.webp'
 import BBQ_main_logo from '@/assets/BBQ/a_LOGO_WHITE_TEST_black_backgrund_Small.webp'
@@ -71,7 +80,54 @@ import wordpress from '@/assets/icons/wordpress.png'
 const gitPortfolioItems = () => {
 
     const portfolioItems = ref([
-    {
+        {
+            id: 0,
+            title: 'Painted portraits',
+            subTitle: 'Puffing and sheep posters',
+            description: 'Illustration',
+            text:  ["I painted these animal portraits to showcase the everday person in the Faroe Islands in a fun stereotype. The last two posters were made to showcase and celebrate the traditional clothes and dance. "],
+            thumbnail: puffing_thumbnail,
+            tools:[
+                illustrater, 
+            ],
+            images: [
+                {
+                    imageUrl:  hann_puffing,
+                    width: 583,
+                    height: 827,
+                },
+                {
+                    imageUrl:  hon_puffing,
+                    width: 583,
+                    height: 827,
+                },
+                {
+                    imageUrl:  hann_sheep,
+                    width: 583,
+                    height: 827,
+                },
+                {
+                    imageUrl:  hon_sheep,
+                    width: 583,
+                    height: 827,
+                },
+                {
+                    imageUrl:  the_couple,
+                    width: 583,
+                    height: 827,
+                },
+                {
+                    imageUrl:  the_dancing_ring,
+                    width: 583,
+                    height: 827,
+                },
+                    
+            ],
+            category: [
+                'Illustration'
+            ]
+        }, 
+        {
         id: 1,
         title: 'Longhorn BBQ Project',
         subTitle: 'UX, UI og web',
