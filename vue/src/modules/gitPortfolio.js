@@ -81,7 +81,7 @@ const gitPortfolioItems = () => {
 
     const portfolioItems = ref([
         {
-            id: 0,
+            id: 1,
             title: 'Painted portraits',
             subTitle: 'Puffing and sheep posters',
             description: 'Illustration',
@@ -128,7 +128,7 @@ const gitPortfolioItems = () => {
             ]
         }, 
         {
-        id: 1,
+        id: 2,
         title: 'Longhorn BBQ Project',
         subTitle: 'UX, UI og web',
         description: 'UI/UX, and Web: From Design to Execution',
@@ -165,7 +165,7 @@ const gitPortfolioItems = () => {
         ]
     },
     {
-        id: 2,
+        id: 3,
         title: 'Gjesing Poster',
         subTitle: 'Poster',
         description: 'Graphic design ',
@@ -186,7 +186,7 @@ const gitPortfolioItems = () => {
         ],
     },
     {
-        id: 3,
+        id: 4,
         title: 'Rhino',
         subTitle: 'Poster',
         description: 'Graphic design',
@@ -207,7 +207,7 @@ const gitPortfolioItems = () => {
         ],
     },
     {
-        id: 4,
+        id: 5,
         title: 'DUCK',
         subTitle: 'Poster and Signs',
         description: 'Graphic design',
@@ -239,7 +239,7 @@ const gitPortfolioItems = () => {
         ],
     },
     {
-        id: 5,
+        id: 6,
         title: 'FOX',
         subTitle: 'Video and Animation',
         description: 'Graphic design og Illustration',
@@ -264,7 +264,7 @@ const gitPortfolioItems = () => {
         ]
     }, 
     {
-        id: 6,
+        id: 7,
         title: 'Game Jam',
         subTitle: 'cover and Characters',
         description: 'Graphic design and Illustration',
@@ -296,7 +296,7 @@ const gitPortfolioItems = () => {
         ]
     }, 
     {
-        id: 7,
+        id: 8,
         title: 'UX 2022',
         subTitle: 'Ui, UX and XD prototype',
         description: '',
@@ -323,7 +323,7 @@ const gitPortfolioItems = () => {
         ]
     },
     {
-        id: 8,
+        id: 9,
         title: 'UX 2024',
         subTitle: 'UI/UX and XD Prototype',
         description: 'Self-Service Kiosk App',
@@ -366,7 +366,7 @@ const gitPortfolioItems = () => {
         ]
     }, 
     {
-        id: 9,
+        id: 10,
         title: 'Aquarius',
         subTitle: 'Poster',
         description: 'Graphic design Illustration',
@@ -389,7 +389,7 @@ const gitPortfolioItems = () => {
     }, 
 
     {
-        id: 10,
+        id: 11,
         title: "Fantasy Festival 2024",
         subTitle: "UX, UI, web, Video and Animation",
         description: "",
@@ -440,7 +440,7 @@ const gitPortfolioItems = () => {
 
 
     {
-        id: 11,
+        id: 12,
         title: '3D in illustrator',
         subTitle: 'Illustration',
         description: '',
