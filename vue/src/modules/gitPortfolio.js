@@ -13,6 +13,7 @@ import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.webp'
 import vandman_thumbnail from '@/assets/vandman_thumbnail.webp'
 import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.webp'
 import fantasy_festival_thomnail from '@/assets/Fantasy_festival/fantasy_festival_thumbnail.webp'
+import tilukku_vid_pro_thomnail from '@/assets/til_lukku_vid_provum/tilukku-vid-pro_thomnail.webp'
 
 
 
@@ -62,6 +63,10 @@ import fantasy_facese from '@/assets/Fantasy_festival/facese.webp'
 import III_phone from '@/assets/3D_Phone/phone.webp'
 import tomatos_IIID from '@/assets/3D_Phone/tomatos 3D.webp'
 import tomatos_IID from '@/assets/3D_Phone/tomatoss.webp'
+
+import try_tilukku from '@/assets/til_lukku_vid_provum/3_tilukku.webp'
+import mallemuk from '@/assets/til_lukku_vid_provum/mallemuk.webp'
+import rounde_baby_bird from '@/assets/til_lukku_vid_provum/rounde_baby_bird.webp'
 
 
 // images of tools used ProjectView
@@ -265,6 +270,37 @@ const gitPortfolioItems = () => {
     }, 
     {
         id: 7,
+        title: 'Graduation Card',
+        subTitle: 'cover and Characters',
+        description: 'Graphic design and Illustration',
+        text:  [" "],
+        thumbnail: tilukku_vid_pro_thomnail,
+        tools:[
+            photoshop, 
+        ],
+        images: [
+            {
+                imageUrl:  try_tilukku,
+                width: 1472,
+                height: 1240,
+            },
+            {
+                imageUrl:  mallemuk,
+                width: 787,
+                height: 787,
+            },
+            {
+                imageUrl:  rounde_baby_bird,
+                width: 618,
+                height: 353,
+            },
+        ],
+        category: [
+            'Illustration'
+        ]
+    }, 
+    {
+        id: 8,
         title: 'Game Jam',
         subTitle: 'cover and Characters',
         description: 'Graphic design and Illustration',
@@ -296,7 +332,7 @@ const gitPortfolioItems = () => {
         ]
     }, 
     {
-        id: 8,
+        id: 9,
         title: 'UX 2022',
         subTitle: 'Ui, UX and XD prototype',
         description: '',
@@ -323,7 +359,7 @@ const gitPortfolioItems = () => {
         ]
     },
     {
-        id: 9,
+        id: 10,
         title: 'UX 2024',
         subTitle: 'UI/UX and XD Prototype',
         description: 'Self-Service Kiosk App',
@@ -366,7 +402,7 @@ const gitPortfolioItems = () => {
         ]
     }, 
     {
-        id: 10,
+        id: 11,
         title: 'Aquarius',
         subTitle: 'Poster',
         description: 'Graphic design Illustration',
@@ -389,7 +425,7 @@ const gitPortfolioItems = () => {
     }, 
 
     {
-        id: 11,
+        id: 12,
         title: "Fantasy Festival 2024",
         subTitle: "UX, UI, web, Video and Animation",
         description: "",
@@ -440,7 +476,7 @@ const gitPortfolioItems = () => {
 
 
     {
-        id: 12,
+        id: 13,
         title: '3D in illustrator',
         subTitle: 'Illustration',
         description: '',
