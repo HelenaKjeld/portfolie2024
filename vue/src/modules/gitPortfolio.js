@@ -13,8 +13,8 @@ import ux_2022_thumbnail from '@/assets/UX_2022/ux_thumbnail.webp'
 import vandman_thumbnail from '@/assets/vandman_thumbnail.webp'
 import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.webp'
 import fantasy_festival_thomnail from '@/assets/Fantasy_festival/fantasy_festival_thumbnail.webp'
-import tilukku_vid_pro_thomnail from '@/assets/til_lukku_vid_provum/tilukku-vid-pro_thomnail.webp'
-
+import tilukku_vid_pro_thomnail from '@/assets/til_lukku_vid_provum/tilukku_vid_pro_thumbnail.webp'
+import blueprints_thumbail from '@/assets/blueprints/blueprints_thumbnail.webp'
 
 
 // images for ProjectView
@@ -65,8 +65,12 @@ import tomatos_IIID from '@/assets/3D_Phone/tomatos 3D.webp'
 import tomatos_IID from '@/assets/3D_Phone/tomatoss.webp'
 
 import try_tilukku from '@/assets/til_lukku_vid_provum/3_tilukku.webp'
-import mallemuk from '@/assets/til_lukku_vid_provum/mallemuk.webp'
-import rounde_baby_bird from '@/assets/til_lukku_vid_provum/rounde_baby_bird.webp'
+import mallemuk from '@/assets/til_lukku_vid_provum/mallemuk.png'
+import baby_bird from '@/assets/til_lukku_vid_provum/rounde_baby_bird.webp'
+
+import airbuss from '@/assets/blueprints/Airbuss.webp'
+import camper from '@/assets/blueprints/Camper.webp'
+
 
 
 // images of tools used ProjectView
@@ -271,9 +275,9 @@ const gitPortfolioItems = () => {
     {
         id: 7,
         title: 'Graduation Card',
-        subTitle: 'cover and Characters',
-        description: 'Graphic design and Illustration',
-        text:  [" "],
+        subTitle: 'Tilukku við próvnum',
+        description: '',
+        text:  ["Pisa is a Faroese name for a young bird, and is used to decribe the newly educated such as student, hf, handelsskolen etc. The bird with red and blue hats is the youngling of the national bird Oystercatcher. The bird with green hat was made for a fishing school, the bird is called Fulmar and was chosen because it can drink seawater."],
         thumbnail: tilukku_vid_pro_thomnail,
         tools:[
             photoshop, 
@@ -290,7 +294,7 @@ const gitPortfolioItems = () => {
                 height: 787,
             },
             {
-                imageUrl:  rounde_baby_bird,
+                imageUrl:  baby_bird,
                 width: 618,
                 height: 353,
             },
@@ -482,10 +486,10 @@ const gitPortfolioItems = () => {
         description: '',
         text: ['In this project I experimented with the #D aption in illustrator where I used the inflate function'
         ],
-        thumbnail: III_phone ,
+        thumbnail: blueprints_thumbail,
         WorkWith: '',
         tools:[
-            illustrater, 
+            illustrater, indesign,
         ],
         images: [
             {
@@ -504,6 +508,36 @@ const gitPortfolioItems = () => {
                 height: 1735,
             },
 
+        ],
+        category: [
+            'Illustration'
+        ]
+
+
+    }
+    {
+        id: 14,
+        title: 'WAVEAIR',
+        subTitle: 'Blueprints',
+        description: '',
+        text: ['This was a fun fantasy project about planes that turned into blueprint drawings.'
+        ],
+        thumbnail: blueprints_thumbail ,
+        WorkWith: '',
+        tools:[
+            illustrater, indesign,
+        ],
+        images: [
+            {
+                imageUrl:  airbuss,
+                width: 1191,
+                height: 842,
+            },
+            {
+                imageUrl:  camper,
+                width: 1191,
+                height: 842,
+            },
         ],
         category: [
             'Illustration'
