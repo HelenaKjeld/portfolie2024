@@ -486,7 +486,7 @@ const gitPortfolioItems = () => {
         description: '',
         text: ['In this project I experimented with the #D aption in illustrator where I used the inflate function'
         ],
-        thumbnail: blueprints_thumbail,
+        thumbnail: III_phone,
         WorkWith: '',
         tools:[
             illustrater, indesign,
@@ -514,7 +514,7 @@ const gitPortfolioItems = () => {
         ]
 
 
-    }
+    },
     {
         id: 14,
         title: 'WAVEAIR',
