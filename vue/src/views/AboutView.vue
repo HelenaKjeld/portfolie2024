@@ -7,12 +7,18 @@
                 <h1>Helena Kjeld</h1>
                 <h3>Graphic designer, Illustrator <br />
                     & Multimediedesigner</h3>
-            <p>Welcome to my website! My name is Helena and I am an aspiring Multimedia Designer with background in Graphic Design and Illustration. 
+            <!-- <p>Welcome to my website! My name is Helena and I am an aspiring Multimedia Designer with background in Graphic Design and Illustration. 
               My passion is to create art with stories. I am inspired by simplistic and colorful designs. 
               I get my inspiration from food packaging designs, posters, movies, etc. 
               You are welcome to checkout my projects and have a look and hopefully something inspires you. 
-              You are welcome to contact me with Email or LinkedIn. 
-                </p>
+              You are welcome to contact me with Email or LinkedIn.  -->
+
+            <p>Welcome to my website! My name is Helena, and I am an aspiring Multimedia Designer with a background in Graphic Design and Illustration. My passion is to create art with stories, drawing inspiration from simplistic and colorful designs. I love exploring food packaging, posters, movies, and more to fuel my creativity. </p>
+
+            <p>Beyond design, I have experience building websites from scratch using HTML, CSS, JavaScript, Vue, and WordPress. I also specialize in adapting existing websites and enhancing user experiences through UI/UX design.</p>
+
+            <p>Feel free to explore my projects—I hope something inspires you! You are welcome to contact me via email or LinkedIn.</p>
+
         </div>
         <div class="contact">
             <h3>Contact</h3>
@@ -39,7 +45,7 @@
 .about_me{
     margin-top: 240xp;
     padding-top: 70px;
-    gap: 20px;
+    gap: 40px;
     margin-right: 30px;
     display: flex;
     flex-direction: row;
@@ -61,7 +67,7 @@
 
 
 .MeImg{
-    width: 80%;
+    width: 60%;
     float: right;
 }
 
@@ -115,16 +121,20 @@
     display: flex;
     flex-direction: column;
     padding-top: 30px;
-    margin-right: 0px;
+    margin-right: 10px;
+  }
+
+  h1{
+    display: flex;
+    justify-content: center;
   }
 
   .MeImg{
-    width: 80%;
+    width: 60%;
   }
   .image_of_me{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
   .text_about_me{
     margin-left: 20px;
