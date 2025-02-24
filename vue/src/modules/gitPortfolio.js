@@ -97,7 +97,7 @@ const gitPortfolioItems = () => {
             text:  ["I painted these animal portraits to showcase the everday person in the Faroe Islands in a fun stereotype. The last two posters were made to showcase and celebrate the traditional clothes and dance. "],
             thumbnail: puffing_thumbnail,
             tools:[
-                illustrater, 
+                photoshop, 
             ],
             images: [
                 {
