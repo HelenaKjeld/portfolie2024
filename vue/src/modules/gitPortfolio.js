@@ -78,6 +78,7 @@ import camper from '@/assets/blueprints/Camper.webp'
 
 // images of tools used ProjectView
 
+import panting_and_pencil from '@/assets/icons/SVG/panting_and_pencil_icon.svg'
 import XD from '@/assets/icons/XD.svg'
 import after_effects from '@/assets/icons/After_Effects.svg'
 import illustrater from '@/assets/icons/illustrater.svg'
@@ -100,7 +101,7 @@ const gitPortfolioItems = () => {
             text: ["I painted these animal portraits to showcase the everday person in the Faroe Islands in a fun stereotype. The last two posters were made to showcase and celebrate the traditional clothes and dance. "],
             thumbnail: puffing_thumbnail,
             tools: [
-                photoshop,
+                photoshop, panting_and_pencil,
             ],
             images: [
                 {
@@ -283,7 +284,7 @@ const gitPortfolioItems = () => {
             text: ["Pisa is a Faroese name for a young bird, and is used to decribe the newly educated such as student, hf, handelsskolen etc. The bird with red and blue hats is the youngling of the national bird Oystercatcher. The bird with green hat was made for a fishing school, the bird is called Fulmar and was chosen because it can drink seawater."],
             thumbnail: tilukku_vid_pro_thomnail,
             tools: [
-                photoshop,
+                photoshop, panting_and_pencil,
             ],
             images: [
                 {
