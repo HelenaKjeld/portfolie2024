@@ -15,6 +15,7 @@ import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.webp'
 import fantasy_festival_thomnail from '@/assets/Fantasy_festival/fantasy_festival_thumbnail.webp'
 import tilukku_vid_pro_thomnail from '@/assets/til_lukku_vid_provum/tilukku_vid_pro_thumbnail.webp'
 import blueprints_thumbail from '@/assets/blueprints/blueprints_thumbnail.webp'
+import LM_thumbnail from '@/assets/laesemusen/LM_thumbnail.webp'
 
 
 // images for ProjectView
@@ -73,6 +74,19 @@ import baby_bird from '@/assets/til_lukku_vid_provum/rounde_baby_bird.webp'
 
 import airbuss from '@/assets/blueprints/Airbuss.webp'
 import camper from '@/assets/blueprints/Camper.webp'
+
+
+import PHONE_LM from '@/assets/laesemusen/PHONE_LM.webp'
+import imstgram from '@/assets/laesemusen/imstgram.webp'
+import Button_Badge from '@/assets/laesemusen/Button_Badge_LM.webp'
+import ID_Card from '@/assets/laesemusen/ID_Card_LM.webp'
+import logo_on_bilding from '@/assets/laesemusen/logo_on_bilding.webp'
+import musen from '@/assets/laesemusen/musen_læser.webp'
+import Dragon from '@/assets/laesemusen/Dragon.webp'
+import natur from '@/assets/laesemusen/natur.webp'
+import sport from '@/assets/laesemusen/sport.webp'
+import superhelt from '@/assets/laesemusen/superhelt.webp'
+import iPad_LM from '@/assets/laesemusen/iPad_Mockup.webp'
 
 
 
@@ -431,7 +445,6 @@ const gitPortfolioItems = () => {
                 'Illustration'
             ]
         },
-
         {
             id: 12,
             title: "Fantasy Festival 2024",
@@ -491,9 +504,6 @@ const gitPortfolioItems = () => {
             ],
             category: ["Graphic design", "Illustration", "Web"],
         },
-
-
-
         {
             id: 13,
             title: '3D in illustrator',
@@ -557,6 +567,40 @@ const gitPortfolioItems = () => {
             category: [
                 'Illustration'
             ]
+
+
+        },
+        {
+            id: 15,
+            title: 'Læsemusen App',
+            subTitle: '',
+            description: '',
+            text: [''
+            ],
+            thumbnail: LM_thumbnail,
+            WorkWith: 'Ida',
+            tools: [
+                illustrater, photoshop, XD, after_effects,
+            ],
+            images: [
+                {
+                    imageUrl: ,
+                    width: 1772,
+                    height: 1772,
+                },
+                {
+                    imageUrl: tomatos_IIID,
+                    width: 1496,
+                    height: 1731,
+                },
+                {
+                    imageUrl: tomatos_IID,
+                    width: 1500,
+                    height: 1735,
+                },
+
+            ],
+            category: [ 'UX', 'Graphic design', 'Illustration']
 
 
         }
