@@ -15,7 +15,7 @@ import UX_2024_thomnail from '@/assets/UX_2024/UX_2024_thomnail.webp'
 import fantasy_festival_thomnail from '@/assets/Fantasy_festival/fantasy_festival_thumbnail.webp'
 import tilukku_vid_pro_thomnail from '@/assets/til_lukku_vid_provum/tilukku_vid_pro_thumbnail.webp'
 import blueprints_thumbail from '@/assets/blueprints/blueprints_thumbnail.webp'
-import LM_thumbnail from '@/assets/laesemusen/LM_thumbnail.webp'
+import LM_thumbnail from '@/assets/laesemusen/LM_ thumbnail.webp'
 
 
 // images for ProjectView
@@ -76,9 +76,9 @@ import airbuss from '@/assets/blueprints/Airbuss.webp'
 import camper from '@/assets/blueprints/Camper.webp'
 
 
-import PHONE_LM from '@/assets/laesemusen/PHONE_LM.webp'
-import imstgram from '@/assets/laesemusen/imstgram.webp'
-import Button_Badge from '@/assets/laesemusen/Button_Badge_LM.webp'
+import PHONE_LM from '@/assets/laesemusen/PHONE_LM_1.webp'
+import imstgram from '@/assets/laesemusen/imstgram_1.webp'
+import Button_Badge from '@/assets/laesemusen/Button_Badge_LM_1.webp'
 import ID_Card from '@/assets/laesemusen/ID_Card_LM.webp'
 import logo_on_bilding from '@/assets/laesemusen/logo_on_bilding.webp'
 import musen from '@/assets/laesemusen/musen_læser.webp'
@@ -573,9 +573,9 @@ const gitPortfolioItems = () => {
         {
             id: 15,
             title: 'Læsemusen App',
-            subTitle: '',
-            description: 'A book app for children',
-            text: ['This app Læsemusen is for children from 2 - 12, where they can enjoy reading, seeing and listening to books. They can also see and listen to the book at the same time.'
+            subTitle: 'A book app for children',
+            description: '',
+            text: ['This app Læsemusen is for children from 2 - 12, where they can enjoy reading, seeing and listening to books. They can choose to just looking at the page of the book, or they can also see and listen to the book at the same time.'
             ],
             thumbnail: LM_thumbnail,
             WorkWith: 'Ida',
