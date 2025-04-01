@@ -392,7 +392,7 @@ const gitPortfolioItems = () => {
                 'As a part of the EASV Multimedia Design education, I, together with a group, produced a UI/UX mockup of a self-service kiosk app, for the hardware store Harald Nyborg',
                 'This concept is an attempt at assisting customers finding the products they are looking for, as well as their locations in the stores.'
             ],
-            WorkWith: 'Collaborators: Freia, Dörfler, Helene, Sjørslev og Ronja, Kirchheiner',
+            WorkWith: 'Collaborators: Freia Dörfler, Helene Sjørslev og Ronja Kirchheiner',
             thumbnail: UX_2024_thomnail,
             tools: [
                 XD,
@@ -599,6 +599,9 @@ const gitPortfolioItems = () => {
                     height: 1735,
                 },
 
+            ],
+            youtube_videos: [
+                "",
             ],
             category: [ 'UX', 'Graphic design', 'Illustration']
 
