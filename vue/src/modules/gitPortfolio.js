@@ -574,8 +574,8 @@ const gitPortfolioItems = () => {
             id: 15,
             title: 'Læsemusen App',
             subTitle: '',
-            description: '',
-            text: [''
+            description: 'A book app for children',
+            text: ['This app Læsemusen is for children from 2 - 12, where they can enjoy reading, seeing and listening to books. They can also see and listen to the book at the same time.'
             ],
             thumbnail: LM_thumbnail,
             WorkWith: 'Ida',
@@ -584,27 +584,67 @@ const gitPortfolioItems = () => {
             ],
             images: [
                 {
-                    imageUrl: ,
-                    width: 1772,
-                    height: 1772,
+                    imageUrl: PHONE_LM,
+                    width: 1794,
+                    height: 3619,
                 },
                 {
-                    imageUrl: tomatos_IIID,
-                    width: 1496,
-                    height: 1731,
+                    imageUrl: imstgram,
+                    width: 1665,
+                    height: 3301,
                 },
                 {
-                    imageUrl: tomatos_IID,
-                    width: 1500,
-                    height: 1735,
+                    imageUrl: Button_Badge,
+                    width: 2854,
+                    height: 3992,
                 },
+                {
+                    imageUrl: ID_Card,
+                    width: 4000,
+                    height: 3200,
+                },
+                {
+                    imageUrl: logo_on_bilding,
+                    width: 1866,
+                    height: 1333,
+                },
+                {
+                    imageUrl: iPad_LM,
+                    width: 4920,
+                    height: 4352,
+                },
+                {
+                    imageUrl: musen,
+                    width: 1754,
+                    height: 1496,
+                },
+                {
+                    imageUrl: Dragon,
+                    width: 1754,
+                    height: 1496,
+                },
+                {
+                    imageUrl: natur,
+                    width: 1508,
+                    height: 1496,
+                },
+                {
+                    imageUrl: sport,
+                    width: 1508,
+                    height: 1496,
+                },
+                {
+                    imageUrl: superhelt,
+                    width: 1508,
+                    height: 1496,
+                },
+            
 
             ],
             youtube_videos: [
-                "",
+                "4rnG1yfsX6k",
             ],
-            category: [ 'UX', 'Graphic design', 'Illustration']
-
+            category: [ 'UX', 'Graphic design', 'Illustration,']
 
         }
 
