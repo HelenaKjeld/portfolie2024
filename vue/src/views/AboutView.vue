@@ -7,11 +7,6 @@
                 <h1>Helena Kjeld</h1>
                 <h3>Graphic designer, Illustrator <br />
                     & Multimediedesigner</h3>
-            <!-- <p>Welcome to my website! My name is Helena and I am an aspiring Multimedia Designer with background in Graphic Design and Illustration. 
-              My passion is to create art with stories. I am inspired by simplistic and colorful designs. 
-              I get my inspiration from food packaging designs, posters, movies, etc. 
-              You are welcome to checkout my projects and have a look and hopefully something inspires you. 
-              You are welcome to contact me with Email or LinkedIn.  -->
 
             <p>Welcome to my website! My name is Helena, and I am an aspiring Multimedia Designer with a background in Graphic Design and Illustration. My passion is to create art with stories, drawing inspiration from simplistic and colorful designs. I love exploring food packaging, posters, movies, and more to fuel my creativity. </p>
 

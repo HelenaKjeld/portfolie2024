@@ -76,9 +76,9 @@ import airbuss from '@/assets/blueprints/Airbuss.webp'
 import camper from '@/assets/blueprints/Camper.webp'
 
 
-import PHONE_LM from '@/assets/laesemusen/PHONE_LM_1.webp'
-import imstgram from '@/assets/laesemusen/imstgram_1.webp'
-import Button_Badge from '@/assets/laesemusen/Button_Badge_LM_1.webp'
+import PHONE_LM from '@/assets/laesemusen/PHONE_LM.webp'
+import imstgram from '@/assets/laesemusen/imstgram.webp'
+import Button_Badge from '@/assets/laesemusen/Button_Badge_LM.webp'
 import ID_Card from '@/assets/laesemusen/ID_Card_LM.webp'
 import logo_on_bilding from '@/assets/laesemusen/logo_on_bilding.webp'
 import musen from '@/assets/laesemusen/musen_læser.webp'
@@ -578,7 +578,7 @@ const gitPortfolioItems = () => {
             text: ['This app Læsemusen is for children from 2 - 12, where they can enjoy reading, seeing and listening to books. They can choose to just looking at the page of the book, or they can also see and listen to the book at the same time.'
             ],
             thumbnail: LM_thumbnail,
-            WorkWith: 'Ida',
+            WorkWith: 'Collaborator: Ida Ballegaard',
             tools: [
                 illustrater, photoshop, XD, after_effects,
             ],
